@@ -658,6 +658,212 @@ AITORA™ provides enterprises with a comprehensive, framework-aligned assessmen
 
 ***AI Security represents the protection of AI models, AI applications, AI infrastructure, AI data, AI agents, AI interfaces, AI tools and AI-enabled workflows against security threats and unintended behavior.***
 
+## 🤖 AI Governance Model
+
+### Allowed Actions
+
+* Risk scoring
+* Threat classification
+* Remediation suggestions
+* Policy recommendations
+
+### Forbidden Actions
+
+* Overriding trust roots
+* Disabling security controls
+* Bypassing policy enforcement
+* Autonomous identity modification
+
+> All AI actions remain **policy-bound and human-governed**.
+
+---
+
+## 🧬 Digital Immune System Model
+
+<div align="center">
+
+![Autonomous Defense](https://img.shields.io/badge/Autonomous_Defense-Enabled-00C853?style=for-the-badge)
+![AI Driven](https://img.shields.io/badge/AI_Driven-Protection-2962FF?style=for-the-badge)
+![Zero Trust](https://img.shields.io/badge/Zero_Trust-Enforced-AA00FF?style=for-the-badge)
+![Continuous Monitoring](https://img.shields.io/badge/Continuous-Monitoring-FF6D00?style=for-the-badge)
+
+</div>
+
+---
+
+### 🌐 Biological-to-Digital Mapping
+
+| 🧬 Biological System | 🛡️ SARTA Equivalent   | 🎯 Function                                      |
+| -------------------- | ---------------------- | ------------------------------------------------ |
+| ⚪ White Blood Cells  | Runtime Sensors        | Detect threats and anomalies in real time        |
+| 🧠 Brain             | AI Risk Engine         | Analyze, correlate, and prioritize risks         |
+| 🧪 Antibodies        | Policy System          | Prevent and neutralize malicious actions         |
+| ⚡ Reflex System      | Response Engine        | Execute automated containment and remediation    |
+| 🧠💾 Immune Memory   | Threat Knowledge Graph | Learn from previous attacks and improve defenses |
+
+---
+
+### 🧬 Digital Immune Response Cycle
+
+```mermaid
+flowchart LR
+
+A["⚪ Runtime Sensors<br/>White Blood Cells"]
+
+B["🧠 AI Risk Engine<br/>Brain"]
+
+C["🧪 Policy System<br/>Antibodies"]
+
+D["⚡ Response Engine<br/>Reflex System"]
+
+E["🧠💾 Threat Knowledge Graph<br/>Immune Memory"]
+
+A --> B
+B --> C
+C --> D
+D --> E
+E -. Continuous Learning .-> B
+
+style A fill:#00E5FF,color:#000000,stroke:#84FFFF,stroke-width:3px
+style B fill:#2979FF,color:#ffffff,stroke:#82B1FF,stroke-width:3px
+style C fill:#00C853,color:#ffffff,stroke:#69F0AE,stroke-width:3px
+style D fill:#FF6D00,color:#ffffff,stroke:#FFAB40,stroke-width:3px
+style E fill:#AA00FF,color:#ffffff,stroke:#EA80FC,stroke-width:3px
+```
+
+---
+
+### 🩺 Immune System Health Indicators
+
+| Capability               | Status    |
+| ------------------------ | --------- |
+| 🔍 Threat Detection      | 🟢 Active |
+| 🧠 Risk Intelligence     | 🟢 Active |
+| 🛡️ Policy Enforcement   | 🟢 Active |
+| ⚡ Automated Response     | 🟢 Active |
+| 📚 Threat Learning       | 🟢 Active |
+| 🔄 Continuous Adaptation | 🟢 Active |
+
+---
+
+## 🎨 Defense Maturity Overview
+
+```text
+⚪ Runtime Sensors          🟢🟢🟢🟢🟢 🟢🟢🟢🟢🟢
+🧠 AI Risk Engine          🟢🟢🟢🟢🟢 🟢🟢🟢🟢🟢
+🧪 Policy System           🟢🟢🟢🟢🟢 🟢🟢🟢🟢🟢
+⚡ Response Engine         🟢🟢🟢🟢🟢 🟢🟢🟢🟢⚪
+🧠💾 Threat Knowledge      🟢🟢🟢🟢🟢 🟢🟢🟢🟢🟢
+```
+
+---
+
+> [!TIP]
+> Just as the human immune system continuously detects, analyzes, responds, and learns from biological threats, the **SARTA Digital Immune System** continuously monitors workloads, evaluates risk, enforces policy, orchestrates automated responses, and builds institutional memory from every security event.
+
+
+## 🧪 Threat Model
+
+### ✅ Defended Against
+
+* Privilege escalation
+* Credential misuse
+* Lateral movement
+* Supply chain compromise
+* Policy drift
+* Insider threats
+
+### ⚠️ Partially Addressed
+
+* Advanced persistent threats
+* Multi-stage intrusion campaigns
+* Federated trust abuse
+
+### 🚫 Out of Scope
+
+* Hardware implants
+* Firmware-level attacks
+* Physical infrastructure compromise
+
+---
+
+
+
+## 🚀 Autonomous Cyber Defense Architecture
+
+```mermaid
+graph TD
+
+S["🔍 Detect"]
+A["⚪ Runtime Sensors"]
+
+R["🧠 Analyze"]
+B["🧠 AI Risk Engine"]
+
+P["🛡️ Protect"]
+C["🧪 Policy System"]
+
+X["⚡ Respond"]
+D["⚡ Response Engine"]
+
+L["📚 Learn"]
+E["🧠💾 Threat Knowledge Graph"]
+
+S --> A
+A --> R
+R --> B
+B --> P
+P --> C
+C --> X
+X --> D
+D --> L
+L --> E
+E --> S
+
+style S fill:#00E676,color:#000
+style R fill:#2979FF,color:#fff
+style P fill:#00C853,color:#fff
+style X fill:#FF6D00,color:#fff
+style L fill:#AA00FF,color:#fff
+```
+
+---
+
+## 📁 Repository Structure
+
+```bash
+sarta/
+├── README.md
+├── LICENSE
+├── SECURITY.md
+├── CONTRIBUTING.md
+├── ROADMAP.md
+│
+├── docs/
+│   ├── architecture.md
+│   ├── threat-model.md
+│   ├── compliance-mapping.md
+│   ├── research-roadmap.md
+│   ├── publications/
+│   ├── diagrams/
+│   └── adr/
+│
+├── control-plane/
+├── runtime-security/
+├── identity-layer/
+├── policy-engine/
+├── autonomy-engine/
+├── threat-graph/
+├── federation/
+├── observability/
+└── tests/
+```
+
+---
+
+<div align="center">
+
+
 AITORA™ AI Security addresses:
 
 AI threat modeling
@@ -1494,207 +1700,7 @@ style C fill:#FFD600,color:#000
 > [!TIP]
 > This architecture combines **Zero Trust**, **Cloud Native Security**, **Policy-as-Code**, **Observability**, **AI-Driven Risk Analytics**, and **Continuous Compliance** into a unified security platform.
 
-## 🧪 Threat Model
 
-### ✅ Defended Against
-
-* Privilege escalation
-* Credential misuse
-* Lateral movement
-* Supply chain compromise
-* Policy drift
-* Insider threats
-
-### ⚠️ Partially Addressed
-
-* Advanced persistent threats
-* Multi-stage intrusion campaigns
-* Federated trust abuse
-
-### 🚫 Out of Scope
-
-* Hardware implants
-* Firmware-level attacks
-* Physical infrastructure compromise
-
----
-
-## 🤖 AI Governance Model
-
-### Allowed Actions
-
-* Risk scoring
-* Threat classification
-* Remediation suggestions
-* Policy recommendations
-
-### Forbidden Actions
-
-* Overriding trust roots
-* Disabling security controls
-* Bypassing policy enforcement
-* Autonomous identity modification
-
-> All AI actions remain **policy-bound and human-governed**.
-
----
-
-## 🧬 Digital Immune System Model
-
-<div align="center">
-
-![Autonomous Defense](https://img.shields.io/badge/Autonomous_Defense-Enabled-00C853?style=for-the-badge)
-![AI Driven](https://img.shields.io/badge/AI_Driven-Protection-2962FF?style=for-the-badge)
-![Zero Trust](https://img.shields.io/badge/Zero_Trust-Enforced-AA00FF?style=for-the-badge)
-![Continuous Monitoring](https://img.shields.io/badge/Continuous-Monitoring-FF6D00?style=for-the-badge)
-
-</div>
-
----
-
-### 🌐 Biological-to-Digital Mapping
-
-| 🧬 Biological System | 🛡️ SARTA Equivalent   | 🎯 Function                                      |
-| -------------------- | ---------------------- | ------------------------------------------------ |
-| ⚪ White Blood Cells  | Runtime Sensors        | Detect threats and anomalies in real time        |
-| 🧠 Brain             | AI Risk Engine         | Analyze, correlate, and prioritize risks         |
-| 🧪 Antibodies        | Policy System          | Prevent and neutralize malicious actions         |
-| ⚡ Reflex System      | Response Engine        | Execute automated containment and remediation    |
-| 🧠💾 Immune Memory   | Threat Knowledge Graph | Learn from previous attacks and improve defenses |
-
----
-
-### 🧬 Digital Immune Response Cycle
-
-```mermaid
-flowchart LR
-
-A["⚪ Runtime Sensors<br/>White Blood Cells"]
-
-B["🧠 AI Risk Engine<br/>Brain"]
-
-C["🧪 Policy System<br/>Antibodies"]
-
-D["⚡ Response Engine<br/>Reflex System"]
-
-E["🧠💾 Threat Knowledge Graph<br/>Immune Memory"]
-
-A --> B
-B --> C
-C --> D
-D --> E
-E -. Continuous Learning .-> B
-
-style A fill:#00E5FF,color:#000000,stroke:#84FFFF,stroke-width:3px
-style B fill:#2979FF,color:#ffffff,stroke:#82B1FF,stroke-width:3px
-style C fill:#00C853,color:#ffffff,stroke:#69F0AE,stroke-width:3px
-style D fill:#FF6D00,color:#ffffff,stroke:#FFAB40,stroke-width:3px
-style E fill:#AA00FF,color:#ffffff,stroke:#EA80FC,stroke-width:3px
-```
-
----
-
-### 🩺 Immune System Health Indicators
-
-| Capability               | Status    |
-| ------------------------ | --------- |
-| 🔍 Threat Detection      | 🟢 Active |
-| 🧠 Risk Intelligence     | 🟢 Active |
-| 🛡️ Policy Enforcement   | 🟢 Active |
-| ⚡ Automated Response     | 🟢 Active |
-| 📚 Threat Learning       | 🟢 Active |
-| 🔄 Continuous Adaptation | 🟢 Active |
-
----
-
-## 🎨 Defense Maturity Overview
-
-```text
-⚪ Runtime Sensors          🟢🟢🟢🟢🟢 🟢🟢🟢🟢🟢
-🧠 AI Risk Engine          🟢🟢🟢🟢🟢 🟢🟢🟢🟢🟢
-🧪 Policy System           🟢🟢🟢🟢🟢 🟢🟢🟢🟢🟢
-⚡ Response Engine         🟢🟢🟢🟢🟢 🟢🟢🟢🟢⚪
-🧠💾 Threat Knowledge      🟢🟢🟢🟢🟢 🟢🟢🟢🟢🟢
-```
-
----
-
-> [!TIP]
-> Just as the human immune system continuously detects, analyzes, responds, and learns from biological threats, the **SARTA Digital Immune System** continuously monitors workloads, evaluates risk, enforces policy, orchestrates automated responses, and builds institutional memory from every security event.
-
-## 🚀 Autonomous Cyber Defense Architecture
-
-```mermaid
-graph TD
-
-S["🔍 Detect"]
-A["⚪ Runtime Sensors"]
-
-R["🧠 Analyze"]
-B["🧠 AI Risk Engine"]
-
-P["🛡️ Protect"]
-C["🧪 Policy System"]
-
-X["⚡ Respond"]
-D["⚡ Response Engine"]
-
-L["📚 Learn"]
-E["🧠💾 Threat Knowledge Graph"]
-
-S --> A
-A --> R
-R --> B
-B --> P
-P --> C
-C --> X
-X --> D
-D --> L
-L --> E
-E --> S
-
-style S fill:#00E676,color:#000
-style R fill:#2979FF,color:#fff
-style P fill:#00C853,color:#fff
-style X fill:#FF6D00,color:#fff
-style L fill:#AA00FF,color:#fff
-```
-
----
-
-## 📁 Repository Structure
-
-```bash
-sarta/
-├── README.md
-├── LICENSE
-├── SECURITY.md
-├── CONTRIBUTING.md
-├── ROADMAP.md
-│
-├── docs/
-│   ├── architecture.md
-│   ├── threat-model.md
-│   ├── compliance-mapping.md
-│   ├── research-roadmap.md
-│   ├── publications/
-│   ├── diagrams/
-│   └── adr/
-│
-├── control-plane/
-├── runtime-security/
-├── identity-layer/
-├── policy-engine/
-├── autonomy-engine/
-├── threat-graph/
-├── federation/
-├── observability/
-└── tests/
-```
-
----
-
-<div align="center">
 
 ## 🌐 Global Cybersecurity Framework Alignment Matrix
 
