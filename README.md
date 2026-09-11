@@ -10,7 +10,7 @@
 
 **👤 Created by ADUROM AI**
 
-**Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™)**
+**Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™)**
 
 **Copyright© June 1, 2026 by ADUROM AI (All Rights Reserved)**
 
@@ -278,7 +278,7 @@ l) **Adaptive Improvement**
 
 **👤 Created by ADUROM AI**
 
-**Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™)**
+**Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™)**
 
 **Copyright© June 1, 2026 by ADUROM AI (All Rights Reserved)**
 
@@ -648,7 +648,7 @@ AITORA™ provides enterprises with a comprehensive, framework-aligned assessmen
 
 **👤 Created by ADUROM AI**
 
-**Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™)**
+**Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™)**
 
 **Copyright© June 1, 2026 by ADUROM AI (All Rights Reserved)**
 
@@ -2254,7 +2254,7 @@ docs/publications/
 }
 ```
 
-## SARTA™ v3 — Sovereign Adaptive Resilience & Trust Architecture
+## SARTA™v3™ Sovereign Adaptive Resilience & Trust Architecture™
 
 * ☁️ Sovereign Cloud Workloads
 * ⚪ Runtime Intelligence
