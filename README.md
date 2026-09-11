@@ -827,76 +827,6 @@ style E fill:#AA00FF,color:#ffffff,stroke:#EA80FC,stroke-width:3px
 
 ---
 
-## 🧠 Core Idea: Autonomous Security Mesh (v3)
-
-SARTA introduces a shift from fragmented tooling to a unified **Autonomous Security Mesh**:
-
-**👤 Created by ADUROM AI**
-
-**Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™)**
-
-**Copyright© June 1, 2026 by ADUROM AI (All Rights Reserved)**
-
-**Version 1.0**
-
-***SARTA™ incorporates emerging AI-security concepts including:***
-
-* AI Security
-* AI Governance
-* AI-IAM — AI Identity & Access Management
-* AI-SPM — AI Security Posture Management
-* Agentic AI Security
-* RAG Security
-* AI Guardrails
-* AI Telemetry
-* AI Supply-Chain Security
-* AI Threat Modeling
-* AI Security Assurance
-
-***Important Disclaimer: These relationships represent ADUROM AI's methodology for organizing and applying applicable requirements. They should not be interpreted as official government endorsement or official crosswalks unless specifically identified as such.***
-
----
-
-### 🚀 Autonomous Cyber Defense Architecture
-
-```mermaid
-graph TD
-
-S["🔍 Detect"]
-A["⚪ Runtime Sensors"]
-
-R["🧠 Analyze"]
-B["🧠 AI Risk Engine"]
-
-P["🛡️ Protect"]
-C["🧪 Policy System"]
-
-X["⚡ Respond"]
-D["⚡ Response Engine"]
-
-L["📚 Learn"]
-E["🧠💾 Threat Knowledge Graph"]
-
-S --> A
-A --> R
-R --> B
-B --> P
-P --> C
-C --> X
-X --> D
-D --> L
-L --> E
-E --> S
-
-style S fill:#00E676,color:#000
-style R fill:#2979FF,color:#fff
-style P fill:#00C853,color:#fff
-style X fill:#FF6D00,color:#fff
-style L fill:#AA00FF,color:#fff
-```
-
----
-
 ### AI-IAM
 
 ***AI-IAM — Artificial Intelligence Identity & Access Management — represents the identity, authentication, authorization and privilege-management capabilities required to securely control access by and to AI systems.***
@@ -1161,7 +1091,195 @@ linkStyle default stroke:#90a4ae,stroke-width:2px;
 
 ---
 
+### 🚀 Autonomous Cyber Defense Architecture
 
+```mermaid
+graph TD
+
+S["🔍 Detect"]
+A["⚪ Runtime Sensors"]
+
+R["🧠 Analyze"]
+B["🧠 AI Risk Engine"]
+
+P["🛡️ Protect"]
+C["🧪 Policy System"]
+
+X["⚡ Respond"]
+D["⚡ Response Engine"]
+
+L["📚 Learn"]
+E["🧠💾 Threat Knowledge Graph"]
+
+S --> A
+A --> R
+R --> B
+B --> P
+P --> C
+C --> X
+X --> D
+D --> L
+L --> E
+E --> S
+
+style S fill:#00E676,color:#000
+style R fill:#2979FF,color:#fff
+style P fill:#00C853,color:#fff
+style X fill:#FF6D00,color:#fff
+style L fill:#AA00FF,color:#fff
+```
+
+---
+
+## 🧠 Core Idea: Autonomous Security Mesh (v3)
+
+SARTA introduces a shift from fragmented tooling to a unified **Autonomous Security Mesh**:
+
+**👤 Created by ADUROM AI**
+
+**Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™)**
+
+**Copyright© June 1, 2026 by ADUROM AI (All Rights Reserved)**
+
+**Version 1.0**
+
+***SARTA™ incorporates emerging AI-security concepts including:***
+
+* AI Security
+* AI Governance
+* AI-IAM — AI Identity & Access Management
+* AI-SPM — AI Security Posture Management
+* Agentic AI Security
+* RAG Security
+* AI Guardrails
+* AI Telemetry
+* AI Supply-Chain Security
+* AI Threat Modeling
+* AI Security Assurance
+
+***Important Disclaimer: These relationships represent ADUROM AI's methodology for organizing and applying applicable requirements. They should not be interpreted as official government endorsement or official crosswalks unless specifically identified as such.***
+
+---
+
+## SARTA™v3™ Sovereign Adaptive Resilience & Trust Architecture™
+
+* ☁️ Sovereign Cloud Workloads
+* ⚪ Runtime Intelligence
+* 🔐 Zero Trust Identity
+* 📜 Policy-as-Code Governance
+* 📊 Observability & Threat Graph
+* 🧠 AI Risk Intelligence
+* ⚡ Autonomous Response
+* 🛡️ Continuous Compliance
+* 🌍 Sovereign Federation
+* 👨‍⚖️ Human Governance
+
+### Detect → Verify → Govern → Observe → Analyze → Respond → Comply → Federate → Learn → Adapt
+---
+
+
+```mermaid
+
+graph TD
+
+%% ─────────────────────────────────────
+%% SARTA v3
+%% Sovereign Adaptive Resilience & Trust Architecture
+%% ─────────────────────────────────────
+
+W["☁️ Sovereign Cloud Workloads<br/>Kubernetes • Services • APIs • Data"]
+
+D["🔍 DETECT"]
+A["⚪ Runtime Intelligence Layer<br/>eBPF • Falco • Telemetry • Runtime Sensors"]
+
+V["🔐 VERIFY"]
+B["🟣 Zero Trust Identity Layer<br/>SPIFFE • SPIRE • mTLS • Trust Validation"]
+
+G["📜 GOVERN"]
+C["🟡 Policy & Governance Layer<br/>OPA • Gatekeeper • Policy-as-Code"]
+
+O["📊 OBSERVE"]
+H["🟢 Observability & Threat Graph<br/>OpenTelemetry • Prometheus • Knowledge Graph"]
+
+R["🧠 ANALYZE"]
+I["🔴 AI Risk Intelligence Engine<br/>Risk Scoring • Threat Classification • Prediction"]
+
+P["⚡ RESPOND"]
+J["🟠 Autonomous Response Engine<br/>Isolation • Quarantine • Self-Healing"]
+
+C2["🛡️ COMPLY"]
+K["🟤 Continuous Compliance Engine<br/>NIST • ISO27001 • GDPR • DORA • NIS2"]
+
+F["🌍 FEDERATE"]
+L["🔷 Sovereign Federation Layer<br/>Distributed Trust • Threat Intelligence"]
+
+M["👨‍⚖️ HUMAN GOVERNANCE<br/>Security Leadership • Risk Committees • Oversight"]
+
+%% ─────────────────────────────────────
+%% FLOW
+%% ─────────────────────────────────────
+
+W --> D
+D --> A
+
+A --> V
+V --> B
+
+B --> G
+G --> C
+
+C --> O
+O --> H
+
+H --> R
+R --> I
+
+I --> P
+P --> J
+
+J --> C2
+C2 --> K
+
+K --> F
+F --> L
+
+L --> M
+
+%% Continuous Adaptive Loop
+
+L -. Feedback .-> A
+K -. Verification .-> C
+I -. Learning .-> H
+J -. Enforcement .-> B
+
+%% ─────────────────────────────────────
+%% COLORS
+%% ─────────────────────────────────────
+
+style W fill:#0F172A,color:#FFFFFF,stroke:#38BDF8,stroke-width:3px
+
+style D fill:#00E676,color:#000000
+style V fill:#7C3AED,color:#FFFFFF
+style G fill:#FACC15,color:#000000
+style O fill:#10B981,color:#FFFFFF
+style R fill:#EF4444,color:#FFFFFF
+style P fill:#F97316,color:#FFFFFF
+style C2 fill:#92400E,color:#FFFFFF
+style F fill:#0284C7,color:#FFFFFF
+
+style A fill:#E2E8F0,color:#000000
+style B fill:#DDD6FE,color:#000000
+style C fill:#FEF08A,color:#000000
+style H fill:#A7F3D0,color:#000000
+style I fill:#FECACA,color:#000000
+style J fill:#FED7AA,color:#000000
+style K fill:#D6B38A,color:#000000
+style L fill:#BAE6FD,color:#000000
+
+style M fill:#F8FAFC,color:#000000,stroke:#64748B,stroke-width:2px
+```
+
+---
 
 ## 🏗️ System Architecture (v3 Autonomous Mesh)
 
@@ -1336,7 +1454,19 @@ style C fill:#FFD600,color:#000
 > [!TIP]
 > This architecture combines **Zero Trust**, **Cloud Native Security**, **Policy-as-Code**, **Observability**, **AI-Driven Risk Analytics**, and **Continuous Compliance** into a unified security platform.
 
+---
 
+## 🧾 Citation
+
+```bibtex
+@misc{sarta2026,
+  title={Sovereign Adaptive Resilience and Trust Architecture},
+  author={ADUROM AI},
+  year={June 1, 2026},
+  version={v3}
+}
+
+---
 
 ## 🌐 Global Cybersecurity Framework Alignment Matrix
 
@@ -1885,136 +2015,10 @@ docs/publications/
 
 ---
 
-## 🧾 Citation
 
-```bibtex
-@misc{sarta2026,
-  title={Sovereign Adaptive Resilience and Trust Architecture},
-  author={Mr. Mehlek Dawveed},
-  year={2026},
-  version={v3}
-}
 ```
 
-## SARTA™v3™ Sovereign Adaptive Resilience & Trust Architecture™
 
-* ☁️ Sovereign Cloud Workloads
-* ⚪ Runtime Intelligence
-* 🔐 Zero Trust Identity
-* 📜 Policy-as-Code Governance
-* 📊 Observability & Threat Graph
-* 🧠 AI Risk Intelligence
-* ⚡ Autonomous Response
-* 🛡️ Continuous Compliance
-* 🌍 Sovereign Federation
-* 👨‍⚖️ Human Governance
-
-### Detect → Verify → Govern → Observe → Analyze → Respond → Comply → Federate → Learn → Adapt
----
-
-
-```mermaid
-
-graph TD
-
-%% ─────────────────────────────────────
-%% SARTA v3
-%% Sovereign Adaptive Resilience & Trust Architecture
-%% ─────────────────────────────────────
-
-W["☁️ Sovereign Cloud Workloads<br/>Kubernetes • Services • APIs • Data"]
-
-D["🔍 DETECT"]
-A["⚪ Runtime Intelligence Layer<br/>eBPF • Falco • Telemetry • Runtime Sensors"]
-
-V["🔐 VERIFY"]
-B["🟣 Zero Trust Identity Layer<br/>SPIFFE • SPIRE • mTLS • Trust Validation"]
-
-G["📜 GOVERN"]
-C["🟡 Policy & Governance Layer<br/>OPA • Gatekeeper • Policy-as-Code"]
-
-O["📊 OBSERVE"]
-H["🟢 Observability & Threat Graph<br/>OpenTelemetry • Prometheus • Knowledge Graph"]
-
-R["🧠 ANALYZE"]
-I["🔴 AI Risk Intelligence Engine<br/>Risk Scoring • Threat Classification • Prediction"]
-
-P["⚡ RESPOND"]
-J["🟠 Autonomous Response Engine<br/>Isolation • Quarantine • Self-Healing"]
-
-C2["🛡️ COMPLY"]
-K["🟤 Continuous Compliance Engine<br/>NIST • ISO27001 • GDPR • DORA • NIS2"]
-
-F["🌍 FEDERATE"]
-L["🔷 Sovereign Federation Layer<br/>Distributed Trust • Threat Intelligence"]
-
-M["👨‍⚖️ HUMAN GOVERNANCE<br/>Security Leadership • Risk Committees • Oversight"]
-
-%% ─────────────────────────────────────
-%% FLOW
-%% ─────────────────────────────────────
-
-W --> D
-D --> A
-
-A --> V
-V --> B
-
-B --> G
-G --> C
-
-C --> O
-O --> H
-
-H --> R
-R --> I
-
-I --> P
-P --> J
-
-J --> C2
-C2 --> K
-
-K --> F
-F --> L
-
-L --> M
-
-%% Continuous Adaptive Loop
-
-L -. Feedback .-> A
-K -. Verification .-> C
-I -. Learning .-> H
-J -. Enforcement .-> B
-
-%% ─────────────────────────────────────
-%% COLORS
-%% ─────────────────────────────────────
-
-style W fill:#0F172A,color:#FFFFFF,stroke:#38BDF8,stroke-width:3px
-
-style D fill:#00E676,color:#000000
-style V fill:#7C3AED,color:#FFFFFF
-style G fill:#FACC15,color:#000000
-style O fill:#10B981,color:#FFFFFF
-style R fill:#EF4444,color:#FFFFFF
-style P fill:#F97316,color:#FFFFFF
-style C2 fill:#92400E,color:#FFFFFF
-style F fill:#0284C7,color:#FFFFFF
-
-style A fill:#E2E8F0,color:#000000
-style B fill:#DDD6FE,color:#000000
-style C fill:#FEF08A,color:#000000
-style H fill:#A7F3D0,color:#000000
-style I fill:#FECACA,color:#000000
-style J fill:#FED7AA,color:#000000
-style K fill:#D6B38A,color:#000000
-style L fill:#BAE6FD,color:#000000
-
-style M fill:#F8FAFC,color:#000000,stroke:#64748B,stroke-width:2px
-```
-
----
 
 ## 📜 License
 
