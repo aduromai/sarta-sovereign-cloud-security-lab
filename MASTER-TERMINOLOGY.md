@@ -2,7 +2,7 @@
 
 | Name                                         | Definition                                                                              |
 | --------------------------------------------  | ------------------------------------------------------------------------------------ |
-| 🟦 **ADUROM AI**                             | Business entity that created SARTA™ as a Cybersecurity, AI Security, GRC, Risk, and Advisory Framework for Corporate Governance and Legal Compliance |
+| 🟦 **ADUROM AI**                             | Entity that created SARTA™ as a Cybersecurity, AI Security, GRC, Risk, and Advisory Framework for Corporate Governance and Legal Compliance |
 | 🟩 **SARTA™**                                | Sovereign Adaptive Resilience & Trust Architecture™ (Master architecture) |
 | 🟪 **AI-SABOK™**                             | AI Security Architect Body of Knowledge and competency foundation         |
 | 🟧 **AITORA™**                               | AI Trust & Operational Readiness Assessment™	Assessment methodology      |
