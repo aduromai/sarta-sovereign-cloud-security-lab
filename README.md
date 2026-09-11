@@ -262,7 +262,7 @@ l) **Adaptive Improvement**
 
 ---
 
-## AI-SABOK™ AI Security Architect Body of Knowledge
+## AI-SABOK™ AI Security Architect Body of Knowledge™
 
 **Defines the core domains, principles, and best practices required to design, build, secure, deploy, monitor, and govern trustworthy AI solutions throughout their lifecycle.**
 
@@ -525,7 +525,7 @@ style J fill:#00e5ff,color:#000
 
 ---
 
-## 🧬 Executive Summary
+### 🧬 Executive Summary
 
 SARTA operationalizes:
 
@@ -589,7 +589,7 @@ SARTA explores whether these can be unified into a **single adaptive computation
 
 ---
 
-## 🧪 Research Motivation
+### 🧪 Research Motivation
 
 Modern infrastructure spans:
 
@@ -605,7 +605,7 @@ SARTA investigates:
 
 ---
 
-## 🔬 Research Questions
+### 🔬 Research Questions
 
 * Can Zero Trust adapt continuously using runtime learning?
 * Can compliance become executable code instead of documentation?
@@ -615,7 +615,7 @@ SARTA investigates:
 
 ---
 
-## 🧭 Core Thesis
+### 🧭 Core Thesis
 
 Security systems should evolve into **digital immune systems**:
 
@@ -628,7 +628,7 @@ Security systems should evolve into **digital immune systems**:
 
 ---
 
-## 🧱 Design Principles
+### 🧱 Design Principles
 
 * Identity before network trust
 * Runtime visibility over assumptions
@@ -641,90 +641,24 @@ Security systems should evolve into **digital immune systems**:
 
 ---
 
-ARCHITECTURE
-Architecture represents the structured relationship among people, processes, technology, data, identity, applications, infrastructure, security controls, AI systems and organizational objectives.
+## AITORA™ AI Trust & Operational Readiness Assessment™
 
-SARTA™ architecture considers:
+**The Market Position:
+AITORA™ provides enterprises with a comprehensive, framework-aligned assessment to determine whether AI systems are secure, governed, resilient, and operationally ready for trusted deployment.**
 
-Enterprise architecture
-Security architecture
-Cloud architecture
-AI architecture
-Data architecture
-Identity architecture
-Network architecture
-Application architecture
-API architecture
-AI-agent architecture
-Security operations architecture
-Governance architecture
+**👤 Created by ADUROM AI**
 
-Architecture is treated as the mechanism through which security requirements become practical technical and operational capabilities.
+**Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™)**
 
-GOVERNANCE
-Governance establishes authority, accountability, decision rights, policies, risk ownership and oversight.
+**Copyright© June 1, 2026 by ADUROM AI (All Rights Reserved)**
 
-SARTA™ governance addresses:
+**Version 1.0**
 
-Executive accountability
-Risk ownership
-Security policies
-AI policies
-Technology governance
-Risk appetite
-Regulatory obligations
-Roles and responsibilities
-Third-party governance
-AI accountability
-Exception management
-Security investment
-Executive reporting
+### AI SECURITY
 
-Governance answers:
+***AI Security represents the protection of AI models, AI applications, AI infrastructure, AI data, AI agents, AI interfaces, AI tools and AI-enabled workflows against security threats and unintended behavior.***
 
-Who is accountable, who decides, what is permitted and how is that decision governed?
-
-RISK
-Risk represents the potential for a threat or event to adversely affect organizational objectives, information, technology, people, mission or operations.
-
-SARTA™ evaluates risk across:
-
-Cybersecurity
-Technology
-Cloud
-AI
-Identity
-Data
-Privacy
-Third parties
-Supply chains
-Operational resilience
-Emerging technology
-
-SARTA™ risk analysis considers threats, vulnerabilities, exposure, impact, control effectiveness, dependencies and changing conditions.
-
-SECURITY
-Security represents the preventive, detective, responsive and corrective capabilities used to protect systems, information, identities, infrastructure, applications and AI-enabled environments.
-
-SARTA™ security encompasses:
-
-Cybersecurity
-Cloud security
-Application security
-API security
-Identity security
-Data security
-Network security
-Container security
-AI security
-Supply-chain security
-Security operations
-Incident response
-9. AI SECURITY
-
-AI Security represents the protection of AI models, AI applications, AI infrastructure, AI data, AI agents, AI interfaces, AI tools and AI-enabled workflows against security threats and unintended behavior.
-
-SARTA™ AI Security addresses:
+AITORA™ AI Security addresses:
 
 AI threat modeling
 Prompt injection
@@ -1209,6 +1143,89 @@ That gives us a stable vocabulary. Then every future SARTA™ artifact can say:
 
 SARTA™ Doctrine v1.0
 
+---
+
+ARCHITECTURE
+Architecture represents the structured relationship among people, processes, technology, data, identity, applications, infrastructure, security controls, AI systems and organizational objectives.
+
+SARTA™ architecture considers:
+
+Enterprise architecture
+Security architecture
+Cloud architecture
+AI architecture
+Data architecture
+Identity architecture
+Network architecture
+Application architecture
+API architecture
+AI-agent architecture
+Security operations architecture
+Governance architecture
+
+Architecture is treated as the mechanism through which security requirements become practical technical and operational capabilities.
+
+GOVERNANCE
+Governance establishes authority, accountability, decision rights, policies, risk ownership and oversight.
+
+SARTA™ governance addresses:
+
+Executive accountability
+Risk ownership
+Security policies
+AI policies
+Technology governance
+Risk appetite
+Regulatory obligations
+Roles and responsibilities
+Third-party governance
+AI accountability
+Exception management
+Security investment
+Executive reporting
+
+Governance answers:
+
+Who is accountable, who decides, what is permitted and how is that decision governed?
+
+RISK
+Risk represents the potential for a threat or event to adversely affect organizational objectives, information, technology, people, mission or operations.
+
+SARTA™ evaluates risk across:
+
+Cybersecurity
+Technology
+Cloud
+AI
+Identity
+Data
+Privacy
+Third parties
+Supply chains
+Operational resilience
+Emerging technology
+
+SARTA™ risk analysis considers threats, vulnerabilities, exposure, impact, control effectiveness, dependencies and changing conditions.
+
+SECURITY
+Security represents the preventive, detective, responsive and corrective capabilities used to protect systems, information, identities, infrastructure, applications and AI-enabled environments.
+
+SARTA™ security encompasses:
+
+Cybersecurity
+Cloud security
+Application security
+API security
+Identity security
+Data security
+Network security
+Container security
+AI security
+Supply-chain security
+Security operations
+Incident response
+
+
 
 
 
@@ -1220,15 +1237,7 @@ SARTA™ Doctrine v1.0
 
 ---
 
-## AITORA™ AI Trust & Operational Readiness Assessment
-**The Market Position:
-AITORA™ provides enterprises with a comprehensive, framework-aligned assessment to determine whether AI systems are secure, governed, resilient, and operationally ready for trusted deployment.**
 
----
-
-**👤 Created by ADUROM AI, Chief Security Architect**
-
-**Copyright © June 1, 2026 by Mr. ADUROM AI (SARTA™ / AI-SABOK™ / AITORA™) All Rights Reserved**
 
 
 
