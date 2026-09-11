@@ -340,6 +340,307 @@ These capabilities apply across **every layer** of the architecture:
 
 ---
 
+## ⚙️ Key Capabilities
+
+### 🧠 1. Runtime Intelligence Layer (Sensing & Perception)
+
+### 👁️ Runtime Intelligence
+
+* Kernel-level telemetry
+* Behavioral anomaly detection
+* Container activity monitoring
+* Live attack surface mapping
+
+```mermaid id="runtime-intel"
+flowchart TB
+
+subgraph RI["👁️ Runtime Intelligence Layer"]
+direction TB
+
+A[Kernel-Level Telemetry] --> D[Telemetry Fusion Engine]
+B[Behavioral Anomaly Detection] --> D
+C[Container Activity Monitoring] --> D
+E[Live Attack Surface Mapping] --> D
+
+D --> F[Runtime Visibility Graph]
+F --> G[Security Event Stream]
+F --> H[Behavioral Baseline Model]
+
+end
+
+style RI fill:#0b1f3a,stroke:#4fc3f7,stroke-width:2px,color:#ffffff
+style A fill:#1e88e5,color:#fff
+style B fill:#43a047,color:#fff
+style C fill:#fb8c00,color:#fff
+style E fill:#8e24aa,color:#fff
+style D fill:#263238,color:#fff
+style F fill:#1565c0,color:#fff
+style G fill:#00acc1,color:#fff
+style H fill:#7e57c2,color:#fff
+```
+
+---
+
+### 🛡️ 2. Zero Trust Enforcement Layer (Continuous Verification)
+
+### 🔐 Zero Trust Enforcement
+
+* Continuous workload identity validation
+* Mutual authentication
+* Policy-driven authorization
+* Real-time trust scoring
+
+```mermaid id="zero-trust"
+flowchart TB
+
+subgraph ZT["Zero Trust Enforcement Layer"]
+direction TB
+
+A[Workload Identity Validation] --> D[Trust Evaluation Engine]
+B[Mutual Authentication] --> D
+C[Policy-driven Authorization] --> D
+E[Real-time Trust Scoring] --> D
+
+D --> F[Policy Decision Point]
+F --> G[Allow / Deny Decision]
+F --> H[Dynamic Access Adjustment]
+
+G --> I[Secure Workload Execution]
+H --> J[Trust Score Update Loop]
+
+end
+
+style ZT fill:#0a1b12,stroke:#00e676,stroke-width:2px,color:#ffffff
+style A fill:#2e7d32,color:#ffffff
+style B fill:#43a047,color:#ffffff
+style C fill:#66bb6a,color:#000000
+style E fill:#81c784,color:#000000
+style D fill:#1b5e20,color:#ffffff
+style F fill:#00c853,color:#000000
+style G fill:#00e676,color:#000000
+style H fill:#a5d6a7,color:#000000
+style I fill:#004d40,color:#ffffff
+style J fill:#1de9b6,color:#000000
+```
+
+---
+
+### ⚡ 3. Autonomous Response System (Digital Reflex Layer)
+
+### ⚡ Autonomous Response
+
+* Namespace isolation
+* Pod termination
+* Traffic throttling
+* Node quarantine
+* Dynamic policy updates
+
+```mermaid id="autonomous-response"
+flowchart TB
+
+subgraph AR["⚡ Autonomous Response Engine"]
+direction TB
+
+A[Threat Signal Input] --> B[Decision Engine]
+B --> C[Risk Classification Model]
+
+C --> D{Severity Level}
+
+D -->|Low| E[Traffic Throttling]
+D -->|Medium| F[Namespace Isolation]
+D -->|High| G[Pod Termination]
+D -->|Critical| H[Node Quarantine]
+
+E --> I[Policy Update Engine]
+F --> I
+G --> I
+H --> I
+
+I --> J[Policy Recompilation]
+J --> K[Runtime Enforcement Update]
+
+end
+
+style AR fill:#1a0f2e,stroke:#ba68c8,stroke-width:2px,color:#ffffff
+style A fill:#7e57c2,color:#fff
+style B fill:#512da8,color:#fff
+style C fill:#673ab7,color:#fff
+style D fill:#311b92,color:#fff
+style E fill:#9575cd,color:#000
+style F fill:#ba68c8,color:#000
+style G fill:#d81b60,color:#fff
+style H fill:#b71c1c,color:#fff
+style I fill:#4527a0,color:#fff
+style J fill:#6a1b9a,color:#fff
+style K fill:#8e24aa,color:#fff
+```
+
+---
+
+### 🌍 4. Sovereign Federation Layer (Distributed Trust System)
+
+### 🌍 Sovereign Federation
+
+* Cross-domain intelligence sharing
+* Regional policy autonomy
+* Data locality enforcement
+* Federated trust propagation
+
+```mermaid id="sovereign-federation"
+flowchart LR
+
+subgraph SF["🌍 Sovereign Federation Layer"]
+direction LR
+
+A[Region A Security Domain] <--> D[Federated Trust Exchange Bus] <--> B[Region B Security Domain]
+D <--> C[Region C Security Domain]
+
+A --> E[Local Policy Authority A]
+B --> F[Local Policy Authority B]
+C --> G[Local Policy Authority C]
+
+E --> D
+F --> D
+G --> D
+
+D --> H[Threat Intelligence Graph]
+H --> I[Federated Risk Correlation Engine]
+
+I --> J[Global Trust Consensus Model]
+
+end
+
+style SF fill:#0b1020,stroke:#42a5f5,stroke-width:2px,color:#ffffff
+style A fill:#1e88e5,color:#fff
+style B fill:#00acc1,color:#fff
+style C fill:#5c6bc0,color:#fff
+style D fill:#263238,color:#fff
+style E fill:#43a047,color:#fff
+style F fill:#fb8c00,color:#fff
+style G fill:#8e24aa,color:#fff
+style H fill:#1565c0,color:#fff
+style I fill:#7e57c2,color:#fff
+style J fill:#00e5ff,color:#000
+```
+
+---
+
+## 🧬 Executive Summary
+
+SARTA operationalizes:
+
+* AI-assisted security governance
+* Runtime Zero Trust enforcement
+* Sovereign multi-cloud control planes
+* Federated threat intelligence
+* Autonomous incident response
+* Policy-as-code enforcement
+* Continuous compliance verification
+* Digital sovereignty controls
+
+---
+
+### ✨ Master Architecture View (All Layers Combined)
+
+```mermaid id="sarta-master"
+flowchart TB
+
+RI[👁️ Runtime Intelligence]
+ZT[🔐 Zero Trust Enforcement]
+AR[⚡ Autonomous Response]
+SF[🌍 Sovereign Federation]
+
+RI --> ZT
+ZT --> AR
+AR --> RI
+
+SF <--> ZT
+SF <--> RI
+
+AR --> SF
+
+style RI fill:#1e88e5,stroke:#4fc3f7,color:#fff
+style ZT fill:#2e7d32,stroke:#00e676,color:#fff
+style AR fill:#6a1b9a,stroke:#ba68c8,color:#fff
+style SF fill:#0d47a1,stroke:#42a5f5,color:#fff
+```
+
+---
+
+## ❓ Why SARTA Exists
+
+Modern security ecosystems are fragmented across:
+
+* SIEM systems
+* Identity providers
+* Runtime security tools
+* Compliance frameworks
+* Incident response workflows
+
+### ⚠️ Resulting Problems
+
+* Delayed detection
+* Slow response cycles
+* Policy inconsistency
+* High operational overhead
+* Fragmented visibility
+
+SARTA explores whether these can be unified into a **single adaptive computational system**.
+
+---
+
+## 🧪 Research Motivation
+
+Modern infrastructure spans:
+
+* Multi-cloud environments
+* Sovereign jurisdictions
+* Distributed trust boundaries
+
+Traditional security models remain static and human-driven.
+
+SARTA investigates:
+
+> Can security become a **self-regulating computational organism**?
+
+---
+
+## 🔬 Research Questions
+
+* Can Zero Trust adapt continuously using runtime learning?
+* Can compliance become executable code instead of documentation?
+* Can sovereign systems share intelligence without losing autonomy?
+* What governance is required for AI-driven security decisions?
+* Can resilience be continuously verified at runtime?
+
+---
+
+## 🧭 Core Thesis
+
+Security systems should evolve into **digital immune systems**:
+
+* Continuous sensing
+* Context-aware reasoning
+* Autonomous response
+* Policy evolution
+* Federated intelligence
+* Self-healing behavior
+
+---
+
+## 🧱 Design Principles
+
+* Identity before network trust
+* Runtime visibility over assumptions
+* Policy as executable logic
+* Autonomous response by default
+* Human oversight always available
+* Sovereignty preserved across domains
+* Continuous verification over audits
+* Compliance as a runtime property
+
+---
+
 ARCHITECTURE
 Architecture represents the structured relationship among people, processes, technology, data, identity, applications, infrastructure, security controls, AI systems and organizational objectives.
 
@@ -1009,306 +1310,7 @@ linkStyle default stroke:#90a4ae,stroke-width:2px;
 
 ---
 
-## ⚙️ Key Capabilities
 
-### 👁️ Runtime Intelligence
-
-* Kernel-level telemetry
-* Behavioral anomaly detection
-* Container activity monitoring
-* Live attack surface mapping
-
-### 🧠 1. Runtime Intelligence Layer (Sensing & Perception)
-
-```mermaid id="runtime-intel"
-flowchart TB
-
-subgraph RI["👁️ Runtime Intelligence Layer"]
-direction TB
-
-A[Kernel-Level Telemetry] --> D[Telemetry Fusion Engine]
-B[Behavioral Anomaly Detection] --> D
-C[Container Activity Monitoring] --> D
-E[Live Attack Surface Mapping] --> D
-
-D --> F[Runtime Visibility Graph]
-F --> G[Security Event Stream]
-F --> H[Behavioral Baseline Model]
-
-end
-
-style RI fill:#0b1f3a,stroke:#4fc3f7,stroke-width:2px,color:#ffffff
-style A fill:#1e88e5,color:#fff
-style B fill:#43a047,color:#fff
-style C fill:#fb8c00,color:#fff
-style E fill:#8e24aa,color:#fff
-style D fill:#263238,color:#fff
-style F fill:#1565c0,color:#fff
-style G fill:#00acc1,color:#fff
-style H fill:#7e57c2,color:#fff
-```
-
----
-
-### 🔐 Zero Trust Enforcement
-
-* Continuous workload identity validation
-* Mutual authentication
-* Policy-driven authorization
-* Real-time trust scoring
-
-### 🛡️ 2. Zero Trust Enforcement Layer (Continuous Verification)
-
-```mermaid id="zero-trust"
-flowchart TB
-
-subgraph ZT["Zero Trust Enforcement Layer"]
-direction TB
-
-A[Workload Identity Validation] --> D[Trust Evaluation Engine]
-B[Mutual Authentication] --> D
-C[Policy-driven Authorization] --> D
-E[Real-time Trust Scoring] --> D
-
-D --> F[Policy Decision Point]
-F --> G[Allow / Deny Decision]
-F --> H[Dynamic Access Adjustment]
-
-G --> I[Secure Workload Execution]
-H --> J[Trust Score Update Loop]
-
-end
-
-style ZT fill:#0a1b12,stroke:#00e676,stroke-width:2px,color:#ffffff
-style A fill:#2e7d32,color:#ffffff
-style B fill:#43a047,color:#ffffff
-style C fill:#66bb6a,color:#000000
-style E fill:#81c784,color:#000000
-style D fill:#1b5e20,color:#ffffff
-style F fill:#00c853,color:#000000
-style G fill:#00e676,color:#000000
-style H fill:#a5d6a7,color:#000000
-style I fill:#004d40,color:#ffffff
-style J fill:#1de9b6,color:#000000
-```
-
----
-
-### ⚡ Autonomous Response
-
-* Namespace isolation
-* Pod termination
-* Traffic throttling
-* Node quarantine
-* Dynamic policy updates
-
-### ⚡ 3. Autonomous Response System (Digital Reflex Layer)
-
-```mermaid id="autonomous-response"
-flowchart TB
-
-subgraph AR["⚡ Autonomous Response Engine"]
-direction TB
-
-A[Threat Signal Input] --> B[Decision Engine]
-B --> C[Risk Classification Model]
-
-C --> D{Severity Level}
-
-D -->|Low| E[Traffic Throttling]
-D -->|Medium| F[Namespace Isolation]
-D -->|High| G[Pod Termination]
-D -->|Critical| H[Node Quarantine]
-
-E --> I[Policy Update Engine]
-F --> I
-G --> I
-H --> I
-
-I --> J[Policy Recompilation]
-J --> K[Runtime Enforcement Update]
-
-end
-
-style AR fill:#1a0f2e,stroke:#ba68c8,stroke-width:2px,color:#ffffff
-style A fill:#7e57c2,color:#fff
-style B fill:#512da8,color:#fff
-style C fill:#673ab7,color:#fff
-style D fill:#311b92,color:#fff
-style E fill:#9575cd,color:#000
-style F fill:#ba68c8,color:#000
-style G fill:#d81b60,color:#fff
-style H fill:#b71c1c,color:#fff
-style I fill:#4527a0,color:#fff
-style J fill:#6a1b9a,color:#fff
-style K fill:#8e24aa,color:#fff
-```
-
----
-
-### 🌍 Sovereign Federation
-
-* Cross-domain intelligence sharing
-* Regional policy autonomy
-* Data locality enforcement
-* Federated trust propagation
-
-### 🌍 4. Sovereign Federation Layer (Distributed Trust System)
-
-```mermaid id="sovereign-federation"
-flowchart LR
-
-subgraph SF["🌍 Sovereign Federation Layer"]
-direction LR
-
-A[Region A Security Domain] <--> D[Federated Trust Exchange Bus] <--> B[Region B Security Domain]
-D <--> C[Region C Security Domain]
-
-A --> E[Local Policy Authority A]
-B --> F[Local Policy Authority B]
-C --> G[Local Policy Authority C]
-
-E --> D
-F --> D
-G --> D
-
-D --> H[Threat Intelligence Graph]
-H --> I[Federated Risk Correlation Engine]
-
-I --> J[Global Trust Consensus Model]
-
-end
-
-style SF fill:#0b1020,stroke:#42a5f5,stroke-width:2px,color:#ffffff
-style A fill:#1e88e5,color:#fff
-style B fill:#00acc1,color:#fff
-style C fill:#5c6bc0,color:#fff
-style D fill:#263238,color:#fff
-style E fill:#43a047,color:#fff
-style F fill:#fb8c00,color:#fff
-style G fill:#8e24aa,color:#fff
-style H fill:#1565c0,color:#fff
-style I fill:#7e57c2,color:#fff
-style J fill:#00e5ff,color:#000
-```
-
----
-
-## 🧬 Executive Summary
-
-SARTA operationalizes:
-
-* AI-assisted security governance
-* Runtime Zero Trust enforcement
-* Sovereign multi-cloud control planes
-* Federated threat intelligence
-* Autonomous incident response
-* Policy-as-code enforcement
-* Continuous compliance verification
-* Digital sovereignty controls
-
----
-
-### ✨ Master Architecture View (All Layers Combined)
-
-```mermaid id="sarta-master"
-flowchart TB
-
-RI[👁️ Runtime Intelligence]
-ZT[🔐 Zero Trust Enforcement]
-AR[⚡ Autonomous Response]
-SF[🌍 Sovereign Federation]
-
-RI --> ZT
-ZT --> AR
-AR --> RI
-
-SF <--> ZT
-SF <--> RI
-
-AR --> SF
-
-style RI fill:#1e88e5,stroke:#4fc3f7,color:#fff
-style ZT fill:#2e7d32,stroke:#00e676,color:#fff
-style AR fill:#6a1b9a,stroke:#ba68c8,color:#fff
-style SF fill:#0d47a1,stroke:#42a5f5,color:#fff
-```
-
----
-
-## ❓ Why SARTA Exists
-
-Modern security ecosystems are fragmented across:
-
-* SIEM systems
-* Identity providers
-* Runtime security tools
-* Compliance frameworks
-* Incident response workflows
-
-### ⚠️ Resulting Problems
-
-* Delayed detection
-* Slow response cycles
-* Policy inconsistency
-* High operational overhead
-* Fragmented visibility
-
-SARTA explores whether these can be unified into a **single adaptive computational system**.
-
----
-
-## 🧪 Research Motivation
-
-Modern infrastructure spans:
-
-* Multi-cloud environments
-* Sovereign jurisdictions
-* Distributed trust boundaries
-
-Traditional security models remain static and human-driven.
-
-SARTA investigates:
-
-> Can security become a **self-regulating computational organism**?
-
----
-
-## 🔬 Research Questions
-
-* Can Zero Trust adapt continuously using runtime learning?
-* Can compliance become executable code instead of documentation?
-* Can sovereign systems share intelligence without losing autonomy?
-* What governance is required for AI-driven security decisions?
-* Can resilience be continuously verified at runtime?
-
----
-
-## 🧭 Core Thesis
-
-Security systems should evolve into **digital immune systems**:
-
-* Continuous sensing
-* Context-aware reasoning
-* Autonomous response
-* Policy evolution
-* Federated intelligence
-* Self-healing behavior
-
----
-
-## 🧱 Design Principles
-
-* Identity before network trust
-* Runtime visibility over assumptions
-* Policy as executable logic
-* Autonomous response by default
-* Human oversight always available
-* Sovereignty preserved across domains
-* Continuous verification over audits
-* Compliance as a runtime property
-
----
 
 ## 🏗️ System Architecture (v3 Autonomous Mesh)
 
