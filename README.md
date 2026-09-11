@@ -23,9 +23,9 @@ AITORA™ provides enterprises with a comprehensive, framework-aligned assessmen
 
 ---
 
-**👤 Created by Mr. Mehlek Dawveed, Chief Security Architect**
+**👤 Created by ADUROM AI, Chief Security Architect**
 
-**Copyright © June 1, 2026 by Mr. Mehlek Dawveed (SARTA™ / AI-SABOK™ / AITORA™) All Rights Reserved**
+**Copyright © June 1, 2026 by Mr. ADUROM AI (SARTA™ / AI-SABOK™ / AITORA™) All Rights Reserved**
 
 ---
 ```mermaid
