@@ -317,7 +317,7 @@ These capabilities apply across **every layer** of the architecture:
 
 ---
 
-## 🎯 Core Objectives
+### 🎯 Core Objectives
 
 * 🧠 Advance research into autonomous security systems
 * ☁️ Define sovereign Zero Trust cloud architectures
@@ -427,7 +427,7 @@ style J fill:#1de9b6,color:#000000
 
 ### ⚡ 3. Autonomous Response System (Digital Reflex Layer)
 
-### ⚡ Autonomous Response
+### Autonomous Response
 
 * Namespace isolation
 * Pod termination
@@ -479,7 +479,7 @@ style K fill:#8e24aa,color:#fff
 
 ### 🌍 4. Sovereign Federation Layer (Distributed Trust System)
 
-### 🌍 Sovereign Federation
+### Sovereign Federation
 
 * Cross-domain intelligence sharing
 * Regional policy autonomy
