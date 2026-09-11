@@ -1456,271 +1456,347 @@ style C fill:#FFD600,color:#000
 
 ---
 
-## 🧾 Citation
+ ## 🧾 Citation
 
-```bibtex
-@misc{sarta2026,
-  title={Sovereign Adaptive Resilience and Trust Architecture},
-  author={ADUROM AI},
-  year={June 1, 2026},
-  version={v3}
+```
+@misc{aduromai_sarta_2026,
+  title        = {Sovereign Adaptive Resilience and Trust Architecture},
+  author       = {{ADUROM AI}},
+  year         = {2026},
+  date         = {2026-06-01},
+  version      = {v3},
+  note         = {Proprietary ADUROM AI architecture and methodology}
 }
+```
 
 ---
 
-## 🌐 Global Cybersecurity Framework Alignment Matrix
+ # 🌐 SARTA™ Global Framework Relationship Matrix
 
-![Zero Trust](https://img.shields.io/badge/Zero_Trust-NIST_800--207-0A66C2?style=for-the-badge)
-![ISO 27001](https://img.shields.io/badge/ISO_27001-2022-009688?style=for-the-badge)
-![GDPR](https://img.shields.io/badge/GDPR-EU-003399?style=for-the-badge)
-![DORA](https://img.shields.io/badge/DORA-EU_Financial_Resilience-6A1B9A?style=for-the-badge)
-![NIS2](https://img.shields.io/badge/NIS2-Critical_Infrastructure-1565C0?style=for-the-badge)
-![PCI DSS](https://img.shields.io/badge/PCI_DSS-v4.0-D32F2F?style=for-the-badge)
+**ADUROM AI Research Notice**
+>
+>  This section documents ADUROM AI's research-based relationships between SARTA™ concepts and selected cybersecurity, privacy, cloud, resilience, governance, and compliance frameworks.
+>
+>  These relationships represent ADUROM AI's architectural interpretation and are **not official crosswalks, certifications, accreditations, authorizations, endorsements, or compliance determinations** issued by the organizations that publish or administer the referenced frameworks, standards, regulations, or programs.
+>
+>  Organizations remain responsible for determining and demonstrating their own compliance with applicable laws, regulations, contractual requirements, security standards, authorization requirements, and organizational policies.
 
-### 🛡️ Global Crosswalk of Cybersecurity, Privacy, Resilience, and Compliance Frameworks
-
-</div>
-
+ 
 ---
 
-## 📌 Alignment Legend
+ # 📌 Relationship Rating Legend to SARTA™
 
 | Rating | Meaning |
-|----------|----------|
-| 🟣 Very High | Directly aligned |
-| 🟢 High | Strong alignment |
-| 🟡 Medium | Partial alignment |
-| 🔴 Low | Limited alignment |
+|------------|---------|
+| 🟣 Very High | Strong conceptual, architectural, or control-domain relationship |
+| 🟢 High | Significant relationship or complementary coverage |
+| 🟡 Medium | Partial, contextual, or domain-specific relationship |
+| 🔴 Low | Limited direct relationship |
+| ⚪ N/A | Not directly applicable or not evaluated |
+
+**Important: Relationship ratings are ADUROM AI research assessments. They do not represent official ratings or compliance determinations by the originating organizations.**
 
 ---
 
 ## 🇺🇸 United States
 
----
+### 🔵 NIST Cybersecurity Framework (CSF) 2.0
 
-## 🔵 NIST Cybersecurity Framework (CSF) 2.0
-
-![Risk Management](https://img.shields.io/badge/Risk_Management-High-success)
-![Governance](https://img.shields.io/badge/Governance-High-success)
-
-### Alignment Matrix
-
-| Standard | Alignment |
-|-----------|------------|
+| Framework / Standard | Relationship |
+|------------|---------|
 | NIST SP 800-207 | 🟢 High |
-| ISO 27001 | 🟢 High |
+| ISO/IEC 27001 | 🟢 High |
 | GDPR | 🟡 Medium |
-| DORA | 🟢 High |
-| NIS2 | 🟢 High |
+| DORA | 🟡 Medium |
+| NIS2 | 🟡 Medium |
 | PCI DSS | 🟡 Medium |
 
-### Key Areas
+ ### Key Areas
 
 - 🏛️ Governance
-- 🎯 Risk Management
+- 🎯 Cybersecurity Risk Management
 - 🔐 Identity & Access Management
 - 🚨 Incident Response
 - 🔗 Supply Chain Security
 - 📈 Continuous Monitoring
+- ♻️ Resilience
+- 🔎 Detection & Response
 
 ---
 
-## 🔷 NIST SP 800-53 Rev.5
+### 🔷 NIST SP 800-53 Rev. 5
 
-> [!TIP]
-> Considered one of the most comprehensive security control catalogs globally.
+***NIST SP 800-53 provides a comprehensive catalog of security and privacy controls that can serve as an important reference for SARTA™ control-oriented architecture, assessment, assurance, and risk-management activities.***
 
-### Alignment Matrix
-
-| Standard | Alignment |
-|-----------|------------|
+| Framework / Standard | Relationship |
+|------------|---------|
 | NIST SP 800-207 | 🟢 High |
-| ISO 27001 | 🟢 High |
+| ISO/IEC 27001 | 🟢 High |
 | GDPR | 🟢 High |
 | DORA | 🟢 High |
 | NIS2 | 🟢 High |
 | PCI DSS | 🟢 High |
 
-### Key Areas
+ ### Key Areas
 
 - 🔒 Access Control
-- 📝 Audit Logging
-- 🔑 Encryption
-- 👤 Privacy Controls
-- ♻️ Resilience & Recovery
-- 📡 Security Monitoring
+- 📝 Audit & Accountability
+- 🔑 Cryptographic Protection
+- 👤 Privacy
+- 🛡️ System & Communications Protection
+- 🔎 Continuous Monitoring
+- ♻️ Contingency Planning & Recovery
 
 ---
 
-## 🟦 CISA Zero Trust Maturity Model
+### 🟦 NIST Risk Management Framework (RMF)
 
-### Alignment Matrix
+| RMF Area | SARTA™ Relationship |
+|------------|---------|
+| Prepare | 🟢 High |
+| Categorize | 🟢 High |
+| Select | 🟢 High |
+| Implement | 🟢 High |
+| Assess | 🟣 Very High |
+| Authorize | 🟢 High |
+| Monitor | 🟣 Very High |
 
-| Standard | Alignment |
-|-----------|------------|
-| NIST SP 800-207 | 🟣 Very High |
-| ISO 27001 | 🟡 Medium |
-| GDPR | 🔴 Low |
-| DORA | 🟡 Medium |
-| NIS2 | 🟡 Medium |
-| PCI DSS | 🔴 Low |
+ ### Key Areas
 
-### Domains
-
-- 👤 Identity
-- 💻 Devices
-- 🌐 Networks
-- 📦 Applications
-- 📁 Data
-- 📊 Analytics
-- 🤖 Automation
-
----
-
-## ☁️ FedRAMP
-
-### Focus
-
-- ☁️ Cloud Security
+- 🎯 Risk Management
+- 🏛️ Governance
+- 🔐 Security Controls
+- 📋 Assessment
+- 📝 Authorization Support
 - 📈 Continuous Monitoring
-- 🏛️ Authorization Management
-- 🎯 Risk Assessment
+
+***SARTA™ is not a replacement for the NIST RMF or any federal authorization process. It is positioned as an ADUROM AI proprietary architecture and methodology that can be mapped to RMF activities.***
 
 ---
 
-## 🇨🇦 Canada
+### 🟦 NIST AI Risk Management Framework (AI RMF)
 
-<details>
-<summary><b>🟥 ITSG-33</b></summary>
+| AI RMF Area | SARTA™ Relationship |
+|------------|---------|
+| Govern | 🟣 Very High |
+| Map | 🟣 Very High |
+| Measure | 🟣 Very High |
+| Manage | 🟣 Very High |
 
-### Alignment Matrix
+ ### Key Areas
 
-| Standard | Alignment |
-|-----------|------------|
-| NIST SP 800-207 | 🟢 High |
-| ISO 27001 | 🟢 High |
+- 🤖 AI Governance
+- 🎯 AI Risk Management
+- 🔐 AI Security
+- 👤 AI Identity
+- 📊 AI Monitoring
+- 🛡️ AI Assurance
+- ♻️ AI Resilience
+
+ ***SARTA™ extends these concepts architecturally into areas including AI security architecture, AI-IAM, AI-SPM, agentic AI security, RAG security, AI telemetry, guardrails, and AI operational readiness.***
+
+---
+
+ ### 🟦 NIST Generative AI Profile
+
+ ### Key Relationship Areas
+
+- 🤖 Generative AI Risk
+- 🔐 AI Security
+- 📊 AI Evaluation
+- 🛡️ AI Guardrails
+- 📁 Data Protection
+- 👤 Identity & Access
+- 🔎 Monitoring
+- 🚨 Incident Management
+
+---
+
+ ### 🟦 NIST SP 800-207 — Zero Trust Architecture
+
+| Domain | Relationship |
+|------------|---------|
+| Identity | 🟣 Very High |
+| Devices | 🟢 High |
+| Networks | 🟢 High |
+| Applications & Workloads | 🟣 Very High |
+| Data | 🟣 Very High |
+| Visibility & Analytics | 🟣 Very High |
+| Automation & Orchestration | 🟣 Very High |
+
+### Key Areas
+
+- 🔐 Identity-Centric Security
+- 🧑‍💻 Least Privilege
+- 🔄 Continuous Verification
+- 📊 Telemetry
+- 🛡️ Policy Enforcement
+- 🤖 Automation
+- 🧩 Workload Security
+
+---
+
+ ### 🟦 CISA Zero Trust Maturity Model
+
+| Area | Relationship |
+|------------|---------|
+| NIST SP 800-207 | 🟣 Very High |
+| ISO/IEC 27001 | 🟡 Medium |
 | GDPR | 🟡 Medium |
 | DORA | 🟡 Medium |
 | NIS2 | 🟡 Medium |
 | PCI DSS | 🟡 Medium |
 
-### Focus Areas
+ ### Core Domains
+
+- 👤 Identity
+- 💻 Devices
+- 🌐 Networks
+- 📦 Applications & Workloads
+- 📁 Data
+- 📊 Visibility & Analytics
+- 🤖 Automation & Orchestration
+
+---
+
+ ### ☁️ FedRAMP
+
+ ### Primary Relationship Areas
+
+- ☁️ Cloud Security
+- 🔐 Security Controls
+- 🎯 Risk Management
+- 📝 Security Assessment
+- 🏛️ Authorization Support
+- 📈 Continuous Monitoring
+- 📊 Security Evidence
+
+**FedRAMP Positioning**
+
+***ADUROM AI positions SARTA™ as a proprietary architecture and methodology that can help organize, assess, document, and relate cloud-security activities to applicable federal security and risk-management requirements, including FedRAMP-related requirements where appropriate.***
+
+---
+
+## 🇨🇦 Canada
+
+| Area | Relationship |
+|------------|---------|
+| Security Controls | 🟢 High |
+| Risk Management | 🟢 High |
+| Assessment | 🟢 High |
+| Continuous Monitoring | 🟢 High |
+| Government Security Baselines | 🟢 High |
+
+ ### Focus Areas
 
 - 🔐 Security Controls
 - 🎯 Risk Management
-- 🔄 Continuous Authorization
-- 🏛️ Government Baselines
-
-</details>
-
-<details>
-<summary><b>🟥 Protected B Cloud Profile</b></summary>
-
-### Focus Areas
-
+- 🔄 Continuous Assessment
+- 🏛️ Government Security Baselines
+- 📈 Monitoring
 - ☁️ Cloud Security
 - 🏛️ Government Workloads
 - 📂 Data Classification
-- 🔐 Secure Operations
-
-</details>
-
-<details>
-<summary><b>🟥 PIPEDA</b></summary>
-
-### Focus Areas
-
+- 🔐 Identity & Access
+- 🛡️ Secure Operations
+- 📊 Security Monitoring
 - 👤 Privacy Management
-- 🔒 Data Protection
-- ✅ Consent Management
-- 🚨 Breach Notification
-
-</details>
+- 🔒 Personal Information Protection
+- ✅ Accountability
+- 🚨 Breach Management
+- 🌐 Data Handling
 
 ---
 
-## 🇪🇺 European Union
+ ## 🇪🇺 European Union
 
-## 🟦 EUCS
+ ### 🟦 EUCS
 
-![Cloud Security](https://img.shields.io/badge/Cloud_Assurance-High-blue)
-![Certification](https://img.shields.io/badge/Security_Certification-EU-success)
+ ### Focus Areas
 
-### Focus Areas
-
-- ☁️ Cloud Assurance
-- 🏆 Security Certification
+- ☁️ Cloud Security
+- 🏆 Cloud Assurance
 - 🎯 Risk Management
+- 🔐 Security Controls
+- 📊 Security Monitoring
 
 ---
 
-## 🟨 eIDAS 2.0
+ ## 🟨 eIDAS 2.0
 
-### Focus Areas
+ ### Focus Areas
 
 - 🆔 Digital Identity
-- 🔑 Strong Authentication
+- 🔑 Authentication
 - 🤝 Trust Services
+- 📜 Electronic Identification
+- 🔐 Identity Assurance
 
 ---
 
-## 🟪 EBA ICT Guidelines
+## 🟪 EBA ICT & Security Guidance
 
-> [!IMPORTANT]
-> One of the strongest operational resilience frameworks influencing DORA implementation.
+ ***EBA ICT and security guidance provides important context for ICT risk management, information security, outsourcing, third-party risk, and operational resilience in the financial sector.***
 
-### Focus Areas
+ ### Focus Areas
 
 - 📡 ICT Risk Management
-- 🔗 Outsourcing Risk
+- 🔗 Outsourcing & Third-Party Risk
 - ♻️ Operational Resilience
+- 🔐 Information Security
+- 📊 Monitoring
 
 ---
 
 ## 🟦 ENISA Cybersecurity Guidance
 
-### Strengths
+### Relationship Areas
 
-| Area | Rating |
-|--------|---------|
+| Area | Relationship |
+|------------|---------|
 | NIS2 | 🟣 Very High |
 | DORA | 🟢 High |
-| ISO 27001 | 🟢 High |
+| ISO/IEC 27001 | 🟢 High |
+| Cloud Security | 🟢 High |
+| Cyber Resilience | 🟢 High |
 
 ---
 
 ## 🇬🇧 United Kingdom
 
-## 🔷 NCSC Cyber Assessment Framework (CAF)
+### 🔷 NCSC Cyber Assessment Framework (CAF)
 
 ### Security Outcomes
 
-- 🎯 Risk Management
-- 🛡️ Asset Protection
-- 🔎 Detection
-- 🚨 Response
+- 🎯 Managing Security Risk
+- 🛡️ Protecting Against Cyber Attack
+- 🔎 Detecting Cyber Security Events
+- 🚨 Minimizing the Impact of Incidents
 - ♻️ Recovery
 
 ---
 
 ## 🟢 Cyber Essentials Plus
 
-### Core Controls
+### Core Security Areas
 
-- 🔑 Multi-Factor Authentication
-- 🔄 Patch Management
+- 🔑 Authentication & Access Control
+- 🔄 Security Updates
 - ⚙️ Secure Configuration
 - 🦠 Malware Protection
+- 🌐 Network Security
 
 ---
 
-## 🔵 UK GDPR
+ ## 🔵 UK GDPR
 
-### Primary Focus
+ ### Primary Focus
 
 - 👤 Data Privacy
 - 🔒 Personal Data Protection
-- 📜 Regulatory Compliance
+- 📜 Data Governance
+- 🚨 Breach Management
+- 🌍 Data Transfers
 
 ---
 
@@ -1730,29 +1806,24 @@ style C fill:#FFD600,color:#000
 
 ### 🌟 UAE Information Assurance Standards (IAS)
 
-<div align="center">
-
-![Governance](https://img.shields.io/badge/Governance-Excellent-00C853?style=for-the-badge)
-![Risk](https://img.shields.io/badge/Risk_Management-Excellent-00E676?style=for-the-badge)
-![Compliance](https://img.shields.io/badge/Compliance-Strong-FFD600?style=for-the-badge)
-![Operations](https://img.shields.io/badge/Operational_Security-Excellent-00B0FF?style=for-the-badge)
-
-</div>
-
-| Security Domain         | Maturity              |
-| ----------------------- | --------------------- |
-| 🟦 Security Governance  | 🟢🟢🟢🟢🟢 🟢🟢🟢🟢🟢 |
-| 🟪 Risk Management      | 🟢🟢🟢🟢🟢 🟢🟢🟢🟢🟢 |
-| 🟨 Compliance           | 🟢🟢🟢🟢🟢 🟢🟢🟢🟢⚪  |
-| 🟥 Operational Security | 🟢🟢🟢🟢🟢 🟢🟢🟢🟢🟢 |
+| Security Domain | Relationship |
+|------------|---------|
+| 🟦 Security Governance | 🟢 High |
+| 🟪 Risk Management | 🟢 High |
+| 🟨 Compliance | 🟢 High |
+| 🟥 Operational Security | 🟢 High |
 
 ---
 
-### UAE PDPL
+## 🇦🇪 UAE PDPL
+
+### Focus Areas
 
 - 👤 Privacy Protection
 - 🔐 Data Governance
-- 🌐 Cross-Border Data Controls
+- 🌐 Cross-Border Data Considerations
+- 📜 Data Processing
+- 🛡️ Data Protection
 
 ---
 
@@ -1760,23 +1831,27 @@ style C fill:#FFD600,color:#000
 
 ### Essential Cybersecurity Controls (ECC)
 
-![NCA](https://img.shields.io/badge/NCA-ECC-success)
-
-Key Areas:
+### Key Areas
 
 - 🔐 Cybersecurity Governance
 - 🎯 Risk Management
 - 🏢 Organizational Security
 - 📡 Operational Security
+- 🔎 Monitoring
+- 🚨 Incident Management
 
 ---
 
-### Cloud Cybersecurity Controls (CCC)
+## Cloud Cybersecurity Controls (CCC)
+
+### Key Areas
 
 - ☁️ Cloud Security
 - 🔒 Data Protection
 - 🔑 Identity Management
-- 🛡️ Zero Trust Principles
+- 🛡️ Security Architecture
+- 📈 Monitoring
+- 🎯 Risk Management
 
 ---
 
@@ -1784,13 +1859,15 @@ Key Areas:
 
 ## 🇸🇬 Singapore
 
-### Critical Information Infrastructure Code
+## Critical Information Infrastructure Cybersecurity Requirements
 
-| Domain | Rating |
-|----------|----------|
-| DORA Alignment | 🟢 High |
-| NIS2 Alignment | 🟢 High |
-| ISO 27001 Alignment | 🟢 High |
+| Domain | Relationship |
+|------------|---------|
+| Operational Resilience | 🟢 High |
+| Cybersecurity Risk | 🟢 High |
+| ISO/IEC 27001 | 🟢 High |
+| Incident Management | 🟢 High |
+| Critical Infrastructure Protection | 🟢 High |
 
 ---
 
@@ -1798,10 +1875,14 @@ Key Areas:
 
 ### Cybersecurity Management Guidelines
 
+### Key Areas
+
 - 🏛️ Governance
 - 🎯 Risk Management
 - 🔐 Security Controls
 - 📈 Continuous Improvement
+- 🔗 Supply Chain Security
+- 🚨 Incident Response
 
 ---
 
@@ -1809,183 +1890,176 @@ Key Areas:
 
 ### 🚀 Essential Eight
 
-<div align="center">
-
-![Application Control](https://img.shields.io/badge/Application_Control-Mature-00E676?style=for-the-badge)
-![Patching](https://img.shields.io/badge/Patch_Management-Mature-00BFA5?style=for-the-badge)
-![MFA](https://img.shields.io/badge/MFA-Excellent-2979FF?style=for-the-badge)
-![Privileged Access](https://img.shields.io/badge/Privileged_Access-Strong-FFAB00?style=for-the-badge)
-![Backups](https://img.shields.io/badge/Backups-Excellent-00C853?style=for-the-badge)
-
-</div>
-
-| Security Control                | Maturity              |
-| ------------------------------- | --------------------- |
-| 🟦 Application Control          | 🟢🟢🟢🟢🟢 🟢🟢🟢🟢🟢 |
-| 🟪 Patch Applications           | 🟢🟢🟢🟢🟢 🟢🟢🟢🟢🟢 |
-| 🟨 Multi-Factor Authentication  | 🟢🟢🟢🟢🟢 🟢🟢🟢🟢🟢 |
-| 🟥 Privileged Access Management | 🟢🟢🟢🟢🟢 🟢🟢🟢🟢⚪  |
-| 🟩 Backup & Recovery            | 🟢🟢🟢🟢🟢 🟢🟢🟢🟢🟢 |
+| Security Control | Relationship |
+|------------|---------|
+| 🟦 Application Control | 🟢 High |
+| 🟪 Patch Applications | 🟢 High |
+| 🟨 Multi-Factor Authentication | 🟢 High |
+| 🟥 Privileged Access Management | 🟢 High |
+| 🟩 Backup & Recovery | 🟢 High |
 
 ---
 
-## 📊 Global Alignment Summary
+## 📊 Global Framework Relationship Summary
 
-| Framework | Zero Trust | ISO 27001 | GDPR | DORA | NIS2 | PCI DSS |
-|------------|------------|------------|------------|------------|------------|------------|
-| NIST CSF 2.0 | 🟢 | 🟢 | 🟡 | 🟢 | 🟢 | 🟡 |
+| Framework / Standard | Zero Trust | ISO/IEC 27001 | GDPR | DORA | NIS2 | PCI DSS |
+| ------------- | -------------  | ------------- | ------------- | ------------- | ------------- | -------------  |
+| NIST CSF 2.0 | 🟢 | 🟢 | 🟡 | 🟡 | 🟡 | 🟡 |
 | NIST SP 800-53 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 |
-| CISA ZTMM | 🟣 | 🟡 | 🔴 | 🟡 | 🟡 | 🔴 |
+| CISA ZTMM | 🟣 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 |
 | ITSG-33 | 🟢 | 🟢 | 🟡 | 🟡 | 🟡 | 🟡 |
-| UK CAF | 🟡 | 🟢 | 🟡 | 🟢 | 🟢 | 🟡 |
-| Saudi ECC | 🟢 | 🟢 | 🟡 | 🟡 | 🟡 | 🟡 |
+| UK CAF | 🟡 | 🟢 | 🟡 | 🟡 | 🟢 | 🟡 |
+| Saudi ECC | 🟡 | 🟢 | 🟡 | 🟡 | 🟡 | 🟡 |
 | UAE IAS | 🟡 | 🟢 | 🟡 | 🟡 | 🟡 | 🟡 |
-| Singapore CII | 🟡 | 🟢 | 🟡 | 🟢 | 🟢 | 🔴 |
-| ACSC ISM | 🟢 | 🟢 | 🟡 | 🟡 | 🟡 | 🟡 |
+| Singapore CII | 🟡 | 🟢 | 🟡 | 🟡 | 🟡 | 🟡 |
+| Australian Essential Eight | 🟡 | 🟢 | 🟡 | 🟡 | 🟡 | 🟡 |
 | PCI DSS 4.0 | 🟡 | 🟢 | 🟡 | 🟡 | 🟡 | 🟣 |
 
----
-
-## 🚀 Recommended Global Baseline Stack
-
-```mermaid
-flowchart TD
-
-    A["🔵 NIST CSF 2.0"]
-    B["🟣 NIST SP 800-53"]
-    C["🟢 ISO 27001"]
-    D["🟠 NIST SP 800-207"]
-    F["🟡 ISO 27701"]
-
-    E["🌐 Global Security Program"]
-
-    G["🇪🇺 GDPR"]
-    H["🏦 DORA"]
-    I["🛡️ NIS2"]
-    J["💳 PCI DSS"]
-
-    A --> E
-    B --> E
-    C --> E
-    D --> E
-    F --> E
-
-    E --> G
-    E --> H
-    E --> I
-    E --> J
-
-    style A fill:#2962FF,color:#ffffff,stroke:#82B1FF,stroke-width:3px
-    style B fill:#AA00FF,color:#ffffff,stroke:#EA80FC,stroke-width:3px
-    style C fill:#00C853,color:#ffffff,stroke:#69F0AE,stroke-width:3px
-    style D fill:#FF6D00,color:#ffffff,stroke:#FFAB40,stroke-width:3px
-    style F fill:#FFD600,color:#000000,stroke:#FFFF8D,stroke-width:3px
-
-    style E fill:#00B8D4,color:#ffffff,stroke:#84FFFF,stroke-width:5px
-
-    style G fill:#1565C0,color:#ffffff
-    style H fill:#6A1B9A,color:#ffffff
-    style I fill:#00897B,color:#ffffff
-    style J fill:#D32F2F,color:#ffffff
-```
-
-> [!SUCCESS]
-> 🛡️ **Global Security Program Foundation**
->
-> 🔵 NIST CSF 2.0
-> 🟣 NIST SP 800-53
-> 🟢 ISO 27001
-> 🟡 ISO 27701
-> 🟠 NIST SP 800-207 (Zero Trust)
->
-> Together, these frameworks provide comprehensive coverage for:
->
-> * 🇪🇺 GDPR
-> * 🏦 DORA
-> * 🛡️ NIS2
-> * 💳 PCI DSS 4.0
-> * ☁️ Cloud Security
-> * 🔐 Zero Trust Architecture
-> * 🌍 Global Regulatory Compliance
-
-## 📈 Key Metrics
-
-* Mean Time to Detect (MTTD)
-* Mean Time to Respond (MTTR)
-* Policy Drift Rate
-* False Positive Rate
-* Compliance Coverage
-* Federation Latency
-* Identity Verification Success Rate
+***Interpretation: This table represents ADUROM AI's high-level research assessment of conceptual and control-domain relationships. It does not establish regulatory compliance, certification, authorization, accreditation, or legal conformity.***
 
 ---
 
-## ⚔️ Example Attack Response Flow
+## 🤖 SARTA™ AI Security Extension
 
-```text
-1. Malicious workload executes
-2. Runtime telemetry detects anomaly
-3. Risk engine evaluates behavior
-4. Policy engine classifies threat
-5. Response engine isolates workload
-6. Identity trust is recalculated
-7. Federation shares intelligence
-8. Policies are updated automatically
+**SARTA™ research extends the broader security architecture into emerging AI-security domains, including:**
+
+- AI Governance
+- AI Risk Management
+- AI Security Architecture
+- AI Threat Modeling
+- AI Identity & Access Management (AI-IAM)
+- AI Security Posture Management (AI-SPM)
+- Agentic AI Security
+- AI Agent Governance
+- Retrieval-Augmented Generation (RAG) Security
+- AI Guardrails
+- AI Gateways
+- Prompt Security
+- Output Validation
+- AI Data Loss Prevention
+- AI Telemetry
+- AI Supply-Chain Security
+- AI Runtime Security
+- AI Security Assurance
+- AI Operational Readiness
+
+ > These capabilities represent ADUROM AI research and methodology development. They should not be interpreted as government-approved controls, certifications, or independently validated commercial products unless explicitly identified as such.
+
+---
+
+## 📈 Example Security, AI & Resilience Metrics
+
+- Mean Time to Detect (MTTD)
+- Mean Time to Respond (MTTR)
+- Policy Drift Rate
+- False Positive Rate
+- Control Coverage
+- Compliance Evidence Coverage
+- Identity Verification Success Rate
+- Privileged Access Exceptions
+- Vulnerability Remediation Time
+- Security Telemetry Coverage
+- AI Control Coverage
+- AI Policy Exceptions
+- AI Model / Agent Inventory Coverage
+- AI Identity & Authorization Coverage
+- AI Data Protection Coverage
+- Recovery Time Objective (RTO)
+- Recovery Point Objective (RPO)
+
+---
+
+## ⚔️ Example Adaptive Security Response Flow
+
 ```
+1. Suspicious workload executes
+2. Runtime telemetry detects anomalous behavior
+3. Risk engine evaluates activity
+4. Policy engine evaluates applicable controls
+5. Response mechanism applies appropriate containment
+6. Identity trust is reevaluated
+7. Security intelligence is correlated
+8. Applicable policies and controls are reviewed
+9. Incident and remediation evidence is retained
+10. Lessons learned feed continuous improvement
+```
+
+***Research Model Notice: This represents a conceptual SARTA™ adaptive-security model. Actual implementation behavior depends on the technologies, policies, architectures, authorization boundaries, and operational processes used by the implementing organization.***
 
 ---
 
 ## 🧭 Architecture Decision Records (ADR)
 
-Stored in:
+Architecture Decision Records are maintained in:
 
-```bash
+```
 docs/adr/
 ```
 
-Each ADR documents:
+ Each ADR should document:
 
-* Context
-* Decision
-* Alternatives
-* Consequences
+ - Context
+- Problem or decision
+- Options considered
+- Decision
+- Security implications
+- Operational implications
+- Alternatives considered
+- Consequences
+- Validation criteria
+- Review requirements
 
 ---
 
 ## 🔬 Research Contributions
 
-* Autonomous Security Control Model
-* Federated Sovereign Trust Framework
-* Continuous Compliance Architecture
-* AI Governance for Security Operations
-* Digital Immune System Paradigm
+ Current ADUROM AI research areas include:
+
+- Adaptive Security Control Models
+- Sovereign Cloud Security Architecture
+- Continuous Compliance Architecture
+- AI Governance for Security Operations
+- AI Security Architecture
+- AI Identity & Access Management
+- AI Security Posture Management
+- Agentic AI Security
+- Federated Trust Models
+- Cyber Resilience
+- Digital Immune System Concepts
+- AI Security Assurance
+- AI Operational Readiness
+
+***Research Status: These areas represent ADUROM AI research and development. Individual concepts should not be interpreted as validated commercial products, government-approved architectures, certifications, or production-ready security controls unless explicitly identified as such.***
 
 ---
 
 ## 🗺️ Research Roadmap
 
-* Phase 1 — Reference Architecture
-* Phase 2 — Prototype Validation
-* Phase 3 — Adaptive Policy Systems
-* Phase 4 — Sovereign Federation Experiments
-* Phase 5 — AI Governance Validation
-* Phase 6 — Large-Scale Operational Testing
+- **Phase 1** — Reference Architecture
+- **Phase 2** — Prototype Validation
+- **Phase 3** — Adaptive Policy Systems
+- **Phase 4** — Sovereign Federation Experiments
+- **Phase 5** — AI Governance Validation
+- **Phase 6** — Large-Scale Operational Testing
+- **Phase 7** — AITORA™ Assessment Methodology Development
+- **Phase 8** — AI Security Assurance & Readiness Research
+- **Phase 9** — Enterprise and Federal Use-Case Validation
 
 ---
 
-## 🚀 Reproducing the System
+## 🚀 Reproducing the Technical Laboratory
 
 ### Requirements
 
-* Kubernetes v1.25+
-* Linux kernel 5.x+ with eBPF support
-* Open Policy Agent
-* Falco
-* SPIRE
+- Kubernetes v1.25+
+- Linux kernel 5.x+ with eBPF support
+- Open Policy Agent
+- Falco
+- SPIRE
 
 ### Deployment
 
-```bash
+```
 kubectl apply -f control-plane/manifests/
 kubectl apply -f identity-layer/manifests/
 helm install falco runtime-security/helm/falco
@@ -1993,32 +2067,68 @@ kubectl apply -f autonomy-engine/manifests/
 make demo-run
 ```
 
+***Implementation Notice: Commands, paths, versions, dependencies, and deployment procedures should be verified against the current repository implementation before being represented as tested or production-ready procedures.***
+
 ---
 
 ## 🤝 Contribution & Governance
 
-* Trunk-based development
-* Security-first review process
-* Policy change approval workflow
-* Architecture review gates
-* Severity-based issue triage
+The research repository follows a security-focused development approach that may include:
+
+- Trunk-based development
+- Security-focused code review
+- Policy change approval
+- Architecture review gates
+- Severity-based issue triage
+- Documentation review
+- Security testing
+- Research validation
+- Change management
 
 ---
 
 ## 📚 Publications
 
-All research papers and drafts:
+ Research papers, technical papers, white papers, and drafts are maintained in:
 
-```bash
+```
 docs/publications/
 ```
 
+Where applicable, publications should identify whether they represent:
+
+- Research
+- Experimental work
+- Reference architecture
+- Prototype
+- Draft methodology
+- Validated implementation
+- Commercial methodology
+
 ---
 
+## ⚖️ Intellectual Property & Framework Disclaimer
 
-```
+***SARTA™, AI-SABOK™, AITORA™, SARTA™v3™, and other ADUROM AI names, methodologies, architectures, terminology, documentation, and research concepts may constitute proprietary intellectual property of ADUROM AI and/or its owner, subject to applicable law and any applicable registration or licensing status.***
 
+ Referenced third-party frameworks, standards, regulations, programs, trademarks, and publications remain the property of their respective organizations.
 
+ Nothing in this repository should be interpreted as:
+
+- Government endorsement
+- Government certification
+- FedRAMP authorization
+- FISMA authorization
+- NIST certification
+- ISO certification
+- Regulatory compliance certification
+- Independent assurance
+- Legal advice
+- A substitute for an organization's required security assessment or authorization process
+
+***SARTA™ is an ADUROM AI proprietary architecture and methodology designed to provide an integrated way of thinking about security, trust, resilience, governance, assurance, cloud, identity, and AI security while mapping conceptually to established frameworks and requirements.***
+
+--- 
 
 ## 📜 License
 
@@ -2026,6 +2136,13 @@ Licensed under the **Apache License 2.0**
 
 ---
 
-**Copyright© June 1, 2026 by Creator, Mr. Mehlek Dawveed of the Sovereign Adaptive Resilience & Trust Architecture (SARTA™), AI Security Architect Book of Knowledge (AI-SABOK™), and AI Trust and Operational Readiness Assessment (AITORA™) ALL RIGHTS RESERVED.**
+**👤 Created by ADUROM AI**
 
+**Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™)**
+
+**Copyright© June 1, 2026 by ADUROM AI (All Rights Reserved)**
+
+**Version 1.0**
+
+---
 
