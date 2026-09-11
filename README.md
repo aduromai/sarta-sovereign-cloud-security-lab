@@ -22,6 +22,24 @@
 ![License](https://img.shields.io/badge/license-Apache_2.0-lightgrey)
 
 ---
+## SARTA™ Core Domains
+
+**SARTA™ organizes its methodology around eight integrated domains:**
+
+### SARTA™ Eight (8) Core Domains
+
+| Domains                                  | Purpose                                                                              |
+| -------------------------------------- | ------------------------------------------------------------------------------------ |
+| 🟦 **Governance**                      | Establish authority, accountability, policy and risk ownership.                  |
+| 🟩 **Identify**                        | Understand assets, identities, data, AI systems, dependencies and risk.       |
+| 🟪 **Architect**                       | Design secure cybersecurity, cloud, identity, data and AI architectures.               |
+| 🟧 **Protect**                         | Implement preventive safeguards and security controls.               |
+| 🟦 **Detect**                          | Monitor and identify threats, anomalies and control failures.       |
+| 🟪 **Respond**                         | Investigate, contain and manage cybersecurity and AI-related incidents.                    |
+| ⬛ **Assure**                          | Validate controls, evidence, effectiveness and risk decisions.                     |
+| 🟥 **Resilience**                      | Maintain essential functions, recover from disruption and adapt to changing conditions. |
+
+---
 
 ## Purpose
 
@@ -321,8 +339,6 @@ These capabilities apply across **every layer** of the architecture:
 * Operational Resilience Engineering
 
 ---
-
-
 
 ARCHITECTURE
 Architecture represents the structured relationship among people, processes, technology, data, identity, applications, infrastructure, security controls, AI systems and organizational objectives.
@@ -826,18 +842,15 @@ SARTA™ is a proprietary cybersecurity, AI-security, governance, risk, assuranc
 
 SARTA™ provides an integrated approach for designing, assessing and improving secure technology environments across cybersecurity, cloud, identity, data, AI systems, AI agents, governance and operational resilience.
 
-SARTA™ Core Domains
 
-SARTA™ organizes its methodology around eight integrated domains:
-
-Govern — Establish authority, accountability, policy and risk ownership.
-Identify — Understand assets, identities, data, AI systems, dependencies and risk.
-Architect — Design secure cybersecurity, cloud, identity, data and AI architectures.
-Protect — Implement preventive safeguards and security controls.
-Detect — Monitor and identify threats, anomalies and control failures.
-Respond — Investigate, contain and manage cybersecurity and AI-related incidents.
-Assure — Validate controls, evidence, effectiveness and risk decisions.
-Resilience — Maintain essential functions, recover from disruption and adapt to changing conditions.
+Govern — 
+Identify — 
+Architect — 
+Protect — 
+Detect — 
+Respond — 
+Assure — 
+Resilience — 
 Framework Alignment
 
 SARTA™ may be mapped, as applicable, to established frameworks, standards and guidance including:
