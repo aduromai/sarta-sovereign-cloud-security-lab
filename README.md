@@ -266,9 +266,63 @@ l) **Adaptive Improvement**
 
 **Version 1.0**
 
-**Mission Statement:
-To establish the definitive, vendor-neutral body of knowledge for AI Security Architects by integrating enterprise architecture, cybersecurity, identity, governance, cloud platforms, AI engineering concepts, and operational best practices into a single, practical reference.**
+***Mission Statement:
+To establish the definitive, vendor-neutral body of knowledge for AI Security Architects by integrating enterprise architecture, cybersecurity, identity, governance, cloud platforms, AI engineering concepts, and operational best practices into a single, practical reference.***
+
 ---
+
+### Architecture Layers
+
+| Layers                                  | Purpose                                                                              |
+| -------------------------------------- | ------------------------------------------------------------------------------------ |
+| 🟦 **Governance & Risk Management**    | Policies, compliance, ethics, privacy, and enterprise AI governance                  |
+| 🟩 **AI Trust Architecture**           | Fairness, transparency, explainability, accountability, safety, and resilience       |
+| 🟪 **AI Applications**                 | Copilots, AI assistants, autonomous AI, and enterprise AI applications               |
+| 🟧 **Secure AI System Design**         | AI Gateways, Prompt Firewalls, RAG, Agents, MCP, and output validation               |
+| 🟦 **Data & Knowledge**                | Enterprise data, vector databases, knowledge graphs, APIs, encryption, and DLP       |
+| 🟪 **Foundation Models**               | Public and private LLMs, foundation models, and fine-tuned models                    |
+| ⬛ **Infrastructure**                   | Cloud, Kubernetes, GPUs, containers, networking, and Zero Trust                      |
+| 🟥 **AI Security Operations (AI-SPM)** | Guardrails, monitoring, telemetry, SIEM, SOAR, XDR, posture management, and auditing |
+
+---
+
+### Cross-Cutting Security Pillars
+
+These capabilities apply across **every layer** of the architecture:
+
+* 🔵 **Identity & Access Management**
+* 🟢 **Zero Trust**
+* 🟣 **Security Architecture**
+* 🟠 **Governance**
+* 🔴 **Continuous Monitoring**
+* ⚫ **DevSecOps**
+
+---
+
+## 🎯 Core Objectives
+
+* 🧠 Advance research into autonomous security systems
+* ☁️ Define sovereign Zero Trust cloud architectures
+* 🔐 Model compliance as a continuous computational process
+* 🤖 Explore AI-assisted security governance
+* 🧩 Demonstrate systems architecture & security engineering at research level
+
+---
+
+### Engineering Domains
+
+* Autonomous Security Systems
+* Zero Trust Architecture (Zero Trust Security)
+* AI Governance
+* Digital Sovereignty
+* Cloud Security Engineering
+* Distributed Trust Systems
+* Continuous Compliance Automation
+* Operational Resilience Engineering
+
+---
+
+
 
 ARCHITECTURE
 Architecture represents the structured relationship among people, processes, technology, data, identity, applications, infrastructure, security controls, AI systems and organizational objectives.
@@ -866,56 +920,7 @@ AITORA™ provides enterprises with a comprehensive, framework-aligned assessmen
 
 
 
-## Architecture Layers
 
-| Layer                                  | Purpose                                                                              |
-| -------------------------------------- | ------------------------------------------------------------------------------------ |
-| 🟦 **Governance & Risk Management**    | Policies, compliance, ethics, privacy, and enterprise AI governance                  |
-| 🟩 **AI Trust Architecture**           | Fairness, transparency, explainability, accountability, safety, and resilience       |
-| 🟪 **AI Applications**                 | Copilots, AI assistants, autonomous AI, and enterprise AI applications               |
-| 🟧 **Secure AI System Design**         | AI Gateways, Prompt Firewalls, RAG, Agents, MCP, and output validation               |
-| 🟦 **Data & Knowledge**                | Enterprise data, vector databases, knowledge graphs, APIs, encryption, and DLP       |
-| 🟪 **Foundation Models**               | Public and private LLMs, foundation models, and fine-tuned models                    |
-| ⬛ **Infrastructure**                   | Cloud, Kubernetes, GPUs, containers, networking, and Zero Trust                      |
-| 🟥 **AI Security Operations (AI-SPM)** | Guardrails, monitoring, telemetry, SIEM, SOAR, XDR, posture management, and auditing |
-
----
-
-## Cross-Cutting Security Pillars
-
-These capabilities apply across **every layer** of the architecture:
-
-* 🔵 **Identity & Access Management**
-* 🟢 **Zero Trust**
-* 🟣 **Security Architecture**
-* 🟠 **Governance**
-* 🔴 **Continuous Monitoring**
-* ⚫ **DevSecOps**
-
----
-
-## 🎯 Core Objectives
-
-* 🧠 Advance research into autonomous security systems
-* ☁️ Define sovereign Zero Trust cloud architectures
-* 🔐 Model compliance as a continuous computational process
-* 🤖 Explore AI-assisted security governance
-* 🧩 Demonstrate systems architecture & security engineering at research level
-
----
-
-### Research Domains
-
-* Autonomous Security Systems
-* Zero Trust Architecture (Zero Trust Security)
-* AI Governance
-* Digital Sovereignty
-* Cloud Security Engineering
-* Distributed Trust Systems
-* Continuous Compliance Automation
-* Operational Resilience Engineering
-
----
 
 
 
