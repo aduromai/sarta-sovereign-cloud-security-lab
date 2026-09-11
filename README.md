@@ -137,7 +137,7 @@ The architecture is built on six core principles:
 ---
 ## Framework Overview
 
-**SARTA™ (Security Architecture, Risk, Trust & Assurance)** is an enterprise AI security framework that integrates governance, trust, cybersecurity, privacy, identity, and operational resilience into a unified architecture for AI systems.
+**SARTA™ — Sovereign Adaptive Resilience & Trust Architecture™** is an enterprise AI security framework that integrates governance, trust, cybersecurity, privacy, identity, and operational resilience into a unified architecture for AI systems.
 
 **AI-SABOK™ (AI Security Architecture Body of Knowledge)** defines the core domains, principles, and best practices required to design, build, secure, deploy, monitor, and govern trustworthy AI solutions throughout their lifecycle.
 
