@@ -654,11 +654,51 @@ AITORA™ provides enterprises with a comprehensive, framework-aligned assessmen
 
 **Version 1.0**
 
-### AI SECURITY
+---
+
+### 🤖 AITORA™ SECURITY ASSESSMENT MODEL
 
 ***AI Security represents the protection of AI models, AI applications, AI infrastructure, AI data, AI agents, AI interfaces, AI tools and AI-enabled workflows against security threats and unintended behavior.***
 
-## 🤖 AI Governance Model
+**AITORA™ AI Security Threat Assessments - Address:**
+
+1. AI Threat Modeling
+2. Prompt injection
+3. Data Leakage
+4. Model and Application Security
+5. RAG Security
+6. AI API Security
+7. AI Identity
+8. AI Authorization
+9. AI Agent Security
+10. Tool-Use Security
+11. AI Supply-Chain Security
+12. AI Monitoring
+13. AI Telemetry
+14. AI Guardrails
+15. Output Validation
+16. AI Incident Response
+17. AI Resilience
+
+***AI Governance represents the organizational policies, accountability structures, risk-management processes and oversight mechanisms used to govern the responsible, secure and controlled use of AI.***
+
+**AITORA™ AI Security Governance Assessments - Address:**
+
+1. AI Inventory
+2. AI Ownership
+3. AI Risk Classification
+4. Acceptable Use
+5. Human Oversight
+6. Data Governance
+7. Data Privacy
+8. Enterprise Security
+9. AI Training Model Governance
+10. Vendor Governance
+11. AI Lifecycle Management
+12. Continuous Monitoring
+13. Incident Management
+14. Accountability
+15. Regulatory and Policy Obligations
 
 ### Allowed Actions
 
@@ -864,48 +904,7 @@ sarta/
 <div align="center">
 
 
-AITORA™ AI Security addresses:
 
-AI threat modeling
-Prompt injection
-Data leakage
-Model and application security
-RAG security
-AI API security
-AI identity
-AI authorization
-AI agent security
-Tool-use security
-AI supply-chain security
-AI monitoring
-AI telemetry
-AI guardrails
-Output validation
-AI incident response
-AI resilience
-
-AI Security within SARTA™ is distinct from AI Governance but operates closely with it.
-
-AI GOVERNANCE
-AI Governance represents the organizational policies, accountability structures, risk-management processes and oversight mechanisms used to govern the responsible, secure and controlled use of AI.
-
-AI Governance addresses:
-
-AI inventory
-AI ownership
-AI risk classification
-Acceptable use
-Human oversight
-Data governance
-Privacy
-Security
-Model governance
-Vendor governance
-AI lifecycle management
-Monitoring
-Incident management
-Accountability
-Regulatory and policy obligations
 11. AI-IAM
 
 AI-IAM — Artificial Intelligence Identity & Access Management — represents the identity, authentication, authorization and privilege-management capabilities required to securely control access by and to AI systems.
