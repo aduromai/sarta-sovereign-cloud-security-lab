@@ -168,6 +168,8 @@ The architecture is built on six core principles:
 5. **Monitor Continuously**
 6. **Improve Through Measured Risk**
 
+***ADUROM AI™ is tailored to your organizational mission, regulatory requirements, technology environments, risk tolerance, and operational objectives.***
+
 ---
 
 ## ADUROM AI™ Service Offerings
@@ -180,9 +182,6 @@ The architecture is built on six core principles:
 | ⬛ **AI-Secure™**                          | AI security, secure AI architecture, AI governance, AI risk, threat modeling, and AI security controls.                     |
 | 🟥 **AITORA™**                      | AI trust, governance, security, risk, operational readiness, and executive advisory. |
 
-***ADUROM AI™ is tailored to your organizational mission, regulatory requirements, technology environments, risk tolerance, and operational objectives.***
-
----
 
 ### SARTA™ Sovereignty includes the ability to understand:
 
