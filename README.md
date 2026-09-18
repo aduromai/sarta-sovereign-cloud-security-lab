@@ -151,15 +151,23 @@ style DEV fill:#37474F,color:#FFFFFF
 ```
 ---
 
-## ADUROM AI™ Consulting Alignment
+## Who SARTA™ Is Designed to Support
 
-**SARTA™ provides an architectural and security foundation supporting ADUROM AI™ consulting services across cybersecurity, cloud security, Zero Trust, AI security, governance, risk, and security assurance.**
+***SARTA™ can be adapted to organizations that need to architect, assess, govern, secure, or modernize complex technology and AI environments, including:***
 
-***The methodology can be applied across Critical Infrastructure, Federal Government, State & Local Government, Healthcare, Financial Services, Technology, and Private Enterprise environments.***
+| Entity | Status |
+|------------|---------|
+| 🔐 Federal Government | Cybersecurity risk management, security controls, Zero Trust, cloud security, AI governance, assessment, authorization, and continuous monitoring |
+| ☁️ Healthcare & Regulated Organizations | Security, privacy, identity, cloud, risk, compliance, and AI governance |
+| 📜 Financial Services | Technology risk, identity, cloud security, Zero Trust, security controls, resilience, and regulatory requirements |
+| 📊 State & Local Government | Cybersecurity modernization, risk management, cloud security, identity, Zero Trust, AI governance, and security assurance |
+| 🛡️ Critical Infrastructure | Cybersecurity, resilience, IT/OT considerations, identity, dependencies, cloud, and emerging AI environments |
+| 🚨 Prime Contractors & Technology Partners | Specialized cybersecurity and AI-security architecture, assessment, engineering, and advisory expertise |
+| 🔍 Private Enterprise | Cybersecurity risk, cloud transformation, identity modernization, AI adoption, governance, and security architecture |
 
 ### Design Principles
 
-The architecture is built on six core principles:
+SARTA™ serves as an architectural and methodological foundation that can support multiple ADUROM AI™ consulting engagements:
 
 1. **Secure by Design**
 2. **Trust by Default**
@@ -168,9 +176,38 @@ The architecture is built on six core principles:
 5. **Monitor Continuously**
 6. **Improve Through Measured Risk**
 
-***ADUROM AI™ is tailored to your organizational mission, regulatory requirements, technology environments, risk tolerance, and operational objectives.***
-
 ---
+
+## ADUROM AI™ Consulting Alignment
+
+The methodology is not itself a certification, regulatory standard, government framework, or compliance program. It is a proprietary ADUROM AI™ approach designed to help organizations integrate security architecture, risk, governance, identity, resilience, controls, assurance, and emerging technology considerations into practical cybersecurity decision-making.
+
+**SARTA™ provides an architectural and security foundation supporting ADUROM AI™ consulting services across cybersecurity, cloud security, Zero Trust, AI security, governance, risk, and security assurance.**
+
+***The methodology can be applied across Critical Infrastructure, Federal Government, State & Local Government, Healthcare, Financial Services, Technology, and Private Enterprise environments.***
+
+                   ADUROM AI™
+                      │
+          ┌───────────┴───────────┐
+          │                       │
+        ASSESS                 ARCHITECT
+          │                       │
+    CyberGRC-360™              ZeroTrust-360™
+    CloudSecure-360™           AI-Secure™
+        AITORA™
+          │                       │
+          └───────────┬───────────┘
+                      │
+                    ASSURE
+                      │
+          Security Assurance
+          Continuous Monitoring
+          Risk Management
+          Control Validation
+          Remediation     
+---
+
+***ADUROM AI™ is tailored to your organizational mission, regulatory requirements, technology environments, risk tolerance, and operational objectives.***
 
 ## ADUROM AI™ Service Offerings
 
@@ -181,23 +218,6 @@ The architecture is built on six core principles:
 | 🟦 **CloudSecure-360™**                          | Cloud security architecture, risk, identity, workloads, data, and security controls.       |
 | ⬛ **AI-Secure™**                          | AI security, secure AI architecture, AI governance, AI risk, threat modeling, and AI security controls.                     |
 | 🟥 **AITORA™**                      | AI trust, governance, security, risk, operational readiness, and executive advisory. |
-
-
-### SARTA™ Sovereignty includes the ability to understand:
-
-***a) Where do technology and data reside?***
-
-***b) Who controls them?***
-
-***c) Who can access them?***
-
-***d) Which dependencies exist?***
-
-***e) Which external parties have influence or access?***
-
-***f) What legal, regulatory, and contractual obligations apply?***
-
-***g) What happens if a critical provider, platform, or dependency becomes unavailable?***
 
 ---
 
