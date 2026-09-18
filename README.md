@@ -149,6 +149,13 @@ style GOVERN fill:#FB8C00,color:#FFFFFF
 style MON fill:#E53935,color:#FFFFFF
 style DEV fill:#37474F,color:#FFFFFF
 ```
+---
+
+## ADUROM AI™ Consulting Alignment
+
+* SARTA™ provides an architectural and security foundation supporting ADUROM AI™ consulting services across cybersecurity, cloud security, Zero Trust, AI security, governance, risk, and security assurance.
+
+* The methodology can be applied across Critical Infrastructure, Federal Government, State & Local Government, Healthcare, Financial Services, Technology, and Private Enterprise environments.
 
 ### Design Principles
 
@@ -160,6 +167,20 @@ The architecture is built on six core principles:
 4. **Govern Throughout the AI Lifecycle**
 5. **Monitor Continuously**
 6. **Improve Through Measured Risk**
+
+---
+
+## ADUROM AI™ Service Offerings
+
+| Offering                                  | Primary Focus                                                                              |
+| -------------------------------------- | ------------------------------------------------------------------------------------ |
+| 🟩 **CyberGRC-360™**                        | Cybersecurity risk, governance, control assessment, compliance, and security assurance.       |
+| 🟧 **ZeroTrust-360™**                         | Zero Trust architecture, IAM, PAM, least privilege, segmentation, and identity modernization.               |
+| 🟦 **CloudSecure-360™**                          | Cloud security architecture, risk, identity, workloads, data, and security controls.       |
+| ⬛ **AI-Secure™**                          | AI security, secure AI architecture, AI governance, AI risk, threat modeling, and AI security controls.                     |
+| 🟥 **AITORA™**                      | AI trust, governance, security, risk, operational readiness, and executive advisory. |
+
+These offerings are tailored to organizational mission, regulatory requirements, technology environments, risk tolerance, and operational objectives.
 
 ---
 
