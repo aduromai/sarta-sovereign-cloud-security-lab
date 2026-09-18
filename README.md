@@ -155,15 +155,15 @@ style DEV fill:#37474F,color:#FFFFFF
 
 ***SARTA™ can be adapted to organizations that need to architect, assess, govern, secure, or modernize complex technology and AI environments, including:***
 
-| Entity | Status |
+| Entity | Security Assurances |
 |------------|---------|
-| 🔐 Federal Government | Cybersecurity risk management, security controls, Zero Trust, cloud security, AI governance, assessment, authorization, and continuous monitoring |
-| ☁️ Healthcare & Regulated Organizations | Security, privacy, identity, cloud, risk, compliance, and AI governance |
-| 📜 Financial Services | Technology risk, identity, cloud security, Zero Trust, security controls, resilience, and regulatory requirements |
-| 📊 State & Local Government | Cybersecurity modernization, risk management, cloud security, identity, Zero Trust, AI governance, and security assurance |
-| 🛡️ Critical Infrastructure | Cybersecurity, resilience, IT/OT considerations, identity, dependencies, cloud, and emerging AI environments |
-| 🚨 Prime Contractors & Technology Partners | Specialized cybersecurity and AI-security architecture, assessment, engineering, and advisory expertise |
-| 🔍 Private Enterprise | Cybersecurity risk, cloud transformation, identity modernization, AI adoption, governance, and security architecture |
+| **Federal Government** | Cybersecurity risk management, security controls, Zero Trust, cloud security, AI governance, assessment, authorization, and continuous monitoring |
+| **Healthcare & Regulated Organizations** | Security, privacy, identity, cloud, risk, compliance, and AI governance |
+| **Financial Services** | Technology risk, identity, cloud security, Zero Trust, security controls, resilience, and regulatory requirements |
+| **State & Local Government** | Cybersecurity modernization, risk management, cloud security, identity, Zero Trust, AI governance, and security assurance |
+| **Critical Infrastructure** | Cybersecurity, resilience, IT/OT considerations, identity, dependencies, cloud, and emerging AI environments |
+| **Prime Contractors & Technology Partners** | Specialized cybersecurity and AI-security architecture, assessment, engineering, and advisory expertise |
+| **Private Enterprise** | Cybersecurity risk, cloud transformation, identity modernization, AI adoption, governance, and security architecture |
 
 ### Design Principles
 
