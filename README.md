@@ -180,11 +180,13 @@ SARTA™ serves as an architectural and methodological foundation that can suppo
 
 ## ADUROM AI™ Consulting Alignment
 
-The methodology is not itself a certification, regulatory standard, government framework, or compliance program. It is a proprietary ADUROM AI™ approach designed to help organizations integrate security architecture, risk, governance, identity, resilience, controls, assurance, and emerging technology considerations into practical cybersecurity decision-making.
+* The methodology is not itself a certification, regulatory standard, government framework, or compliance program. It is a proprietary ADUROM AI™ approach designed to help organizations integrate security architecture, risk, governance, identity, resilience, controls, assurance, and emerging technology considerations into practical cybersecurity decision-making.
 
-**SARTA™ provides an architectural and security foundation supporting ADUROM AI™ consulting services across cybersecurity, cloud security, Zero Trust, AI security, governance, risk, and security assurance.**
+### SARTA™ Family: AI-SABOK™ / AITORA™ / SARTA™v3™ / ADUROM AI™ / ADUROM AI© CORP & Technology Ecosystem (The Big-Picture of SARTA™ Intellectual Architecture) 
 
-***The methodology can be applied across Critical Infrastructure, Federal Government, State & Local Government, Healthcare, Financial Services, Technology, and Private Enterprise environments.***
+* SARTA™ provides an architectural and security foundation supporting ADUROM AI™ consulting services across cybersecurity, cloud security, Zero Trust, AI security, governance, risk, and security assurance.
+
+* The methodology can be applied across Critical Infrastructure, Federal Government, State & Local Government, Healthcare, Financial Services, Technology, and Private Enterprise environments.
 
 ```mermaid
 flowchart TB
