@@ -186,25 +186,314 @@ The methodology is not itself a certification, regulatory standard, government f
 
 ***The methodology can be applied across Critical Infrastructure, Federal Government, State & Local Government, Healthcare, Financial Services, Technology, and Private Enterprise environments.***
 
-                   ADUROM AI™
-                      │
-          ┌───────────┴───────────┐
-          │                       │
-        ASSESS                 ARCHITECT
-          │                       │
-    CyberGRC-360™              ZeroTrust-360™
-    CloudSecure-360™           AI-Secure™
-        AITORA™
-          │                       │
-          └───────────┬───────────┘
-                      │
-                    ASSURE
-                      │
-          Security Assurance
-          Continuous Monitoring
-          Risk Management
-          Control Validation
-          Remediation     
+```mermaid
+flowchart TB
+
+    %% =========================================================
+    %% ADUROM AI CORPORATE FOUNDATION
+    %% =========================================================
+
+    CORP["🏢 ADUROM AI - CORP<br/><br/>Corporate Entity<br/>Proprietary Technology & Intellectual Property"]
+
+    BRAND["🔷 ADUROM AI™<br/><br/>Cybersecurity • AI Security<br/>Resilience Engineering • Research<br/>Products & Services"]
+
+    CORP --> BRAND
+
+    %% =========================================================
+    %% SARTA FAMILY
+    %% =========================================================
+
+    SARTA["🛡️ SARTA™<br/><br/>Sovereign Adaptive Resilience<br/>& Trust Architecture™<br/><br/>Proprietary Research & Engineering Framework"]
+
+    V3["⚡ SARTA™ v3™<br/><br/>Advanced Adaptive / Autonomous<br/>Security Architecture Concepts"]
+
+    SABOK["📚 AI-SABOK™<br/><br/>AI Security Body of Knowledge<br/>Knowledge Architecture • Taxonomy<br/>Security Practices"]
+
+    AITORA["🎯 AITORA™<br/><br/>AI Technology / Risk /<br/>Operational Assurance"]
+
+    BRAND --> SARTA
+
+    SARTA --> V3
+    SARTA --> SABOK
+    SARTA --> AITORA
+
+    %% =========================================================
+    %% SARTA CORE DOMAINS
+    %% =========================================================
+
+    GOV["🟦 GOVERNANCE<br/><br/>Authority • Accountability<br/>Policy • Risk Ownership"]
+
+    IDENTIFY["🟩 IDENTIFY<br/><br/>Assets • Identities • Data<br/>AI Systems • Dependencies • Risk"]
+
+    ARCH["🟪 ARCHITECT<br/><br/>Security Architecture<br/>Cloud • AI • Identity • Data"]
+
+    PROTECT["🟧 PROTECT<br/><br/>Preventive Safeguards<br/>Security Controls • Hardening"]
+
+    DETECT["🟦 DETECT<br/><br/>Monitoring • Telemetry<br/>Threats • Anomalies • Failures"]
+
+    RESPOND["🟪 RESPOND<br/><br/>Investigation • Containment<br/>Incident Response • Remediation"]
+
+    ASSURE["⬛ ASSURE<br/><br/>Evidence • Validation<br/>Testing • Effectiveness • Risk Decisions"]
+
+    RESILIENCE["🟥 RESILIENCE<br/><br/>Continuity • Recovery<br/>Adaptation • Operational Resilience"]
+
+    SARTA --> GOV
+    SARTA --> IDENTIFY
+    SARTA --> ARCH
+    SARTA --> PROTECT
+    SARTA --> DETECT
+    SARTA --> RESPOND
+    SARTA --> ASSURE
+    SARTA --> RESILIENCE
+
+    %% =========================================================
+    %% TECHNOLOGY & ENGINEERING DOMAINS
+    %% =========================================================
+
+    AISEC["🤖 AI SECURITY<br/><br/>Prompt Security<br/>AI Workload Protection<br/>Model / Agent Security<br/>Input & Output Controls"]
+
+    CLOUD["☁️ CLOUD SECURITY<br/><br/>Sovereign Cloud<br/>Infrastructure Security<br/>Encryption • KMS • Network Security"]
+
+    IAM["🔐 IDENTITY & ACCESS<br/><br/>IAM • RBAC<br/>Least Privilege<br/>Service Identity"]
+
+    ZT["🟢 ZERO TRUST<br/><br/>Identity-Centric Security<br/>Continuous Verification<br/>Micro-Segmentation"]
+
+    K8S["☸️ KUBERNETES SECURITY<br/><br/>Workload Hardening<br/>Pod Security<br/>Container Security"]
+
+    OPA["⚙️ POLICY-AS-CODE<br/><br/>OPA / Rego<br/>Automated Policy Enforcement<br/>Compliance Guardrails"]
+
+    DETENG["🔎 DETECTION ENGINEERING<br/><br/>Falco • Runtime Detection<br/>Threat Detection<br/>Security Telemetry"]
+
+    DEVSEC["🔄 DEVSECOPS<br/><br/>Secure CI/CD<br/>Security Gates<br/>Automated Validation"]
+
+    RESENG["🧬 RESILIENCE ENGINEERING<br/><br/>Chaos Testing<br/>Failure Recovery<br/>RTO • Adaptive Response"]
+
+    EVIDENCE["📊 SECURITY ASSURANCE<br/><br/>Evidence Register<br/>Testing • Measurement<br/>Validation • Demonstration"]
+
+    ARCH --> AISEC
+    ARCH --> CLOUD
+    IDENTIFY --> IAM
+    PROTECT --> ZT
+    PROTECT --> K8S
+    GOV --> OPA
+    DETECT --> DETENG
+    PROTECT --> DEVSEC
+    RESILIENCE --> RESENG
+    ASSURE --> EVIDENCE
+
+    %% =========================================================
+    %% SARTA RESEARCH LAB
+    %% =========================================================
+
+    LAB["🧪 SARTA™ SOVEREIGN CLOUD SECURITY LAB<br/><br/>Hands-On Research & Engineering Environment<br/><br/>Architecture → Implementation → Testing → Evidence"]
+
+    BRAND --> LAB
+    SARTA --> LAB
+
+    LAB --> AISEC
+    LAB --> IAM
+    LAB --> OPA
+    LAB --> CLOUD
+    LAB --> K8S
+    LAB --> DETENG
+    LAB --> DEVSEC
+    LAB --> RESENG
+    LAB --> EVIDENCE
+
+    %% =========================================================
+    %% TECHNICAL IMPLEMENTATION LAYERS
+    %% =========================================================
+
+    TERRAFORM["Terraform / Infrastructure as Code<br/><br/>AWS • VPC • KMS<br/>Infrastructure Configuration"]
+
+    KUBE["Kubernetes<br/><br/>Workload Security<br/>Container Controls"]
+
+    REGO["OPA / Rego<br/><br/>Policy-as-Code<br/>Sovereignty Controls"]
+
+    RBAC["Kubernetes RBAC<br/><br/>Least Privilege<br/>Service Account Authorization"]
+
+    FALCO["Falco<br/><br/>Runtime Security<br/>Workload Detection"]
+
+    CICD["Secure CI/CD<br/><br/>Pipeline Security<br/>DevSecOps Controls"]
+
+    PYTHON["Validation Tooling<br/><br/>Policy Testing<br/>Latency / Compliance Checks"]
+
+    AICTRL["AI Security Controls<br/><br/>Semantic Filtering<br/>Prompt-Injection Detection<br/>Workload Isolation"]
+
+    CLOUD --> TERRAFORM
+    K8S --> KUBE
+    OPA --> REGO
+    IAM --> RBAC
+    DETENG --> FALCO
+    DEVSEC --> CICD
+    EVIDENCE --> PYTHON
+    AISEC --> AICTRL
+
+    %% =========================================================
+    %% EXTERNAL FRAMEWORKS & STANDARDS
+    %% =========================================================
+
+    NISTCSF["NIST CSF<br/><br/>Cybersecurity Risk Management"]
+
+    NISTRMF["NIST RMF<br/><br/>Risk Management Framework"]
+
+    NISTAI["NIST AI RMF<br/><br/>AI Risk Management"]
+
+    NIST800["NIST SP 800-53<br/><br/>Security & Privacy Controls"]
+
+    FEDRAMP["FedRAMP<br/><br/>Federal Cloud Security<br/>Authorization Framework"]
+
+    ZTF["Zero Trust Principles<br/><br/>Identity • Verification<br/>Least Privilege"]
+
+    ATTACK["MITRE ATT&CK<br/><br/>Threat Behavior<br/>Adversary Techniques"]
+
+    ATLAS["MITRE ATLAS<br/><br/>AI Threat Landscape<br/>Adversarial AI Techniques"]
+
+    OWASP["OWASP<br/><br/>Application & AI Security<br/>Security Guidance"]
+
+    ISO["ISO / IEC Standards<br/><br/>Security • Privacy<br/>Governance • Risk"]
+
+    REG["Applicable Regulatory &<br/>Organizational Requirements<br/><br/>Context-Specific Mapping"]
+
+    %% =========================================================
+    %% FRAMEWORK MAPPING
+    %% =========================================================
+
+    SARTA -. "Mapped / Informed By" .-> NISTCSF
+    SARTA -. "Mapped / Informed By" .-> NISTRMF
+    SARTA -. "Mapped / Informed By" .-> NISTAI
+    SARTA -. "Mapped / Informed By" .-> NIST800
+    SARTA -. "Mapped / Informed By" .-> FEDRAMP
+    SARTA -. "Mapped / Informed By" .-> ZTF
+    SARTA -. "Mapped / Informed By" .-> ATTACK
+    SARTA -. "Mapped / Informed By" .-> ATLAS
+    SARTA -. "Mapped / Informed By" .-> OWASP
+    SARTA -. "Mapped / Informed By" .-> ISO
+    SARTA -. "Mapped / Informed By" .-> REG
+
+    %% =========================================================
+    %% EVIDENCE MATURITY
+    %% =========================================================
+
+    E1["E1 — DESIGNED<br/><br/>Architecture / Control Concept"]
+
+    E2["E2 — IMPLEMENTED<br/><br/>Technical Artifact Exists"]
+
+    E3["E3 — TESTED<br/><br/>Controlled Execution & Measurement"]
+
+    E4["E4 — DEMONSTRATED<br/><br/>Integrated Repeatable Demonstration"]
+
+    E5["E5 — OPERATIONAL /<br/>CUSTOMER VALIDATED<br/><br/>Operational or Customer Evidence"]
+
+    EVIDENCE --> E1
+    E1 --> E2
+    E2 --> E3
+    E3 --> E4
+    E4 --> E5
+
+    %% =========================================================
+    %% COMMERCIAL / FEDERAL APPLICATIONS
+    %% =========================================================
+
+    FED["🏛️ FEDERAL APPLICATIONS<br/><br/>Cybersecurity Engineering<br/>AI Security<br/>Cloud Security<br/>Security Architecture<br/>Resilience"]
+
+    COMM["🏢 COMMERCIAL APPLICATIONS<br/><br/>Enterprise AI Security<br/>Cloud Security<br/>Governance & Risk<br/>Security Assurance"]
+
+    SERVICES["🚀 ADUROM AI™ PRODUCTS & SERVICES<br/><br/>Security Engineering<br/>AI Security<br/>Governance • Risk • Assurance<br/>Architecture • Resilience"]
+
+    E4 --> FED
+    E4 --> COMM
+    E5 --> FED
+    E5 --> COMM
+
+    BRAND --> SERVICES
+    SARTA --> SERVICES
+
+    %% =========================================================
+    %% MASTER SECURITY LIFECYCLE
+    %% =========================================================
+
+    LIFECYCLE["🔁 SARTA™ CONNECTED SECURITY LIFECYCLE"]
+
+    GOV --> LIFECYCLE
+    IDENTIFY --> LIFECYCLE
+    ARCH --> LIFECYCLE
+    PROTECT --> LIFECYCLE
+    DETECT --> LIFECYCLE
+    RESPOND --> LIFECYCLE
+    RESILIENCE --> LIFECYCLE
+    ASSURE --> LIFECYCLE
+
+    LIFECYCLE --> ARCH
+
+    %% =========================================================
+    %% VISUAL STYLING
+    %% =========================================================
+
+    style CORP fill:#0B172A,color:#FFFFFF,stroke:#00BCD4,stroke-width:4px
+    style BRAND fill:#1565C0,color:#FFFFFF,stroke:#42A5F5,stroke-width:4px
+
+    style SARTA fill:#6A1B9A,color:#FFFFFF,stroke:#E1BEE7,stroke-width:5px
+    style V3 fill:#8E24AA,color:#FFFFFF,stroke:#E1BEE7,stroke-width:2px
+    style SABOK fill:#4527A0,color:#FFFFFF,stroke:#B39DDB,stroke-width:2px
+    style AITORA fill:#5E35B1,color:#FFFFFF,stroke:#D1C4E9,stroke-width:2px
+
+    style GOV fill:#1565C0,color:#FFFFFF
+    style IDENTIFY fill:#2E7D32,color:#FFFFFF
+    style ARCH fill:#6A1B9A,color:#FFFFFF
+    style PROTECT fill:#EF6C00,color:#FFFFFF
+    style DETECT fill:#0277BD,color:#FFFFFF
+    style RESPOND fill:#8E24AA,color:#FFFFFF
+    style ASSURE fill:#37474F,color:#FFFFFF
+    style RESILIENCE fill:#C62828,color:#FFFFFF
+
+    style AISEC fill:#4527A0,color:#FFFFFF
+    style CLOUD fill:#0277BD,color:#FFFFFF
+    style IAM fill:#1E88E5,color:#FFFFFF
+    style ZT fill:#43A047,color:#FFFFFF
+    style K8S fill:#1565C0,color:#FFFFFF
+    style OPA fill:#EF6C00,color:#FFFFFF
+    style DETENG fill:#C62828,color:#FFFFFF
+    style DEVSEC fill:#37474F,color:#FFFFFF
+    style RESENG fill:#AD1457,color:#FFFFFF
+    style EVIDENCE fill:#2E7D32,color:#FFFFFF
+
+    style LAB fill:#0B172A,color:#FFFFFF,stroke:#00BCD4,stroke-width:4px
+
+    style TERRAFORM fill:#5C6BC0,color:#FFFFFF
+    style KUBE fill:#326CE5,color:#FFFFFF
+    style REGO fill:#FF8F00,color:#FFFFFF
+    style RBAC fill:#3949AB,color:#FFFFFF
+    style FALCO fill:#D32F2F,color:#FFFFFF
+    style CICD fill:#455A64,color:#FFFFFF
+    style PYTHON fill:#2E7D32,color:#FFFFFF
+    style AICTRL fill:#7B1FA2,color:#FFFFFF
+
+    style NISTCSF fill:#607D8B,color:#FFFFFF
+    style NISTRMF fill:#607D8B,color:#FFFFFF
+    style NISTAI fill:#607D8B,color:#FFFFFF
+    style NIST800 fill:#607D8B,color:#FFFFFF
+    style FEDRAMP fill:#607D8B,color:#FFFFFF
+    style ZTF fill:#607D8B,color:#FFFFFF
+    style ATTACK fill:#607D8B,color:#FFFFFF
+    style ATLAS fill:#607D8B,color:#FFFFFF
+    style OWASP fill:#607D8B,color:#FFFFFF
+    style ISO fill:#607D8B,color:#FFFFFF
+    style REG fill:#607D8B,color:#FFFFFF
+
+    style E1 fill:#90A4AE,color:#FFFFFF
+    style E2 fill:#42A5F5,color:#FFFFFF
+    style E3 fill:#66BB6A,color:#FFFFFF
+    style E4 fill:#FFA726,color:#FFFFFF
+    style E5 fill:#EF5350,color:#FFFFFF
+
+    style FED fill:#263238,color:#FFFFFF,stroke:#90CAF9,stroke-width:2px
+    style COMM fill:#263238,color:#FFFFFF,stroke:#A5D6A7,stroke-width:2px
+    style SERVICES fill:#B71C1C,color:#FFFFFF,stroke:#EF9A9A,stroke-width:4px
+
+    style LIFECYCLE fill:#0B172A,color:#FFFFFF,stroke:#00E5FF,stroke-width:4px
+```
+  
 ---
 
 ***ADUROM AI™ is tailored to your organizational mission, regulatory requirements, technology environments, risk tolerance, and operational objectives.***
