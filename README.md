@@ -12,7 +12,7 @@
 
 **Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™)**
 
-**Copyright© June 1, 2026 by ADUROM AI (All Rights Reserved)**
+**Copyright© June 1, 2026 by ADUROM AI™ (All Rights Reserved)**
 
 **Version 1.0**
 
@@ -320,7 +320,7 @@ l) **Adaptive Improvement**
 
 **Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™)**
 
-**Copyright© June 1, 2026 by ADUROM AI (All Rights Reserved)**
+**Copyright© June 1, 2026 by ADUROM AI™ (All Rights Reserved)**
 
 **Version 1.0**
 
@@ -690,7 +690,7 @@ AITORA™ provides enterprises with a comprehensive, framework-aligned assessmen
 
 **Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™)**
 
-**Copyright© June 1, 2026 by ADUROM AI (All Rights Reserved)**
+**Copyright© June 1, 2026 by ADUROM AI™ (All Rights Reserved)**
 
 **Version 1.0**
 
@@ -2396,13 +2396,13 @@ flowchart TB
 
 **👤 Created by ADUROM AI™**
 
-**Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™ / ADUROM AI™ / ADUROM AI CORP)**
+**Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™ / ADUROM AI™ / ADUROM AI© CORP)**
 
 * Except for rights expressly granted by an applicable third-party license, written agreement, or other legally applicable authorization, all rights in ADUROM AI - CORP proprietary materials are reserved.
 
 * For permissions, licensing inquiries, authorized commercial use, partnership inquiries, or intellectual-property matters, contact ADUROM AI - CORP through its designated business contact.
 
-**Copyright© June 1, 2026 by ADUROM AI (All Rights Reserved)** 
+**Copyright© June 1, 2026 by ADUROM AI™ (All Rights Reserved)** 
 
 ---
  
