@@ -6,9 +6,9 @@
 
 **SARTA™ is mapped to established government, regulatory, and industry frameworks and standards, including NIST CSF, NIST RMF, NIST AI RMF, NIST SP 800-53, FedRAMP, Zero Trust Principles, MITRE ATT&CK, MITRE ATLAS, OWASP, ISO/IEC Standards, and applicable organizational requirements.**
 
-***SARTA™ is an ADUROM AI proprietary methodology. It is not a U.S. Government framework, certification, accreditation, authorization, regulation or compliance standard. SARTA™ does not replace or supersede applicable laws, regulations, agency requirements, contractual requirements, NIST publications, FedRAMP requirements, or other authoritative standards and guidance.***
+***SARTA™ is an ADUROM AI™ proprietary methodology. It is not a U.S. Government framework, certification, accreditation, authorization, regulation or compliance standard. SARTA™ does not replace or supersede applicable laws, regulations, agency requirements, contractual requirements, NIST publications, FedRAMP requirements, or other authoritative standards and guidance.***
 
-**👤 Created by ADUROM AI**
+**👤 Created by ADUROM AI™**
 
 **Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™)**
 
@@ -316,7 +316,7 @@ l) **Adaptive Improvement**
 * 📊 AI Security Posture Management (AI-SPM)
 * 🚀 Continuous Monitoring & Operational Resilience
 
-**👤 Created by ADUROM AI**
+**👤 Created by ADUROM AI™**
 
 **Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™)**
 
@@ -686,7 +686,7 @@ Security systems should evolve into **digital immune systems**:
 **The Market Position:
 AITORA™ provides enterprises with a comprehensive, framework-aligned assessment to determine whether AI systems are secure, governed, resilient, and operationally ready for trusted deployment.**
 
-**👤 Created by ADUROM AI**
+**👤 Created by ADUROM AI™**
 
 **Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™)**
 
@@ -1175,7 +1175,7 @@ style L fill:#AA00FF,color:#fff
 
 SARTA introduces a shift from fragmented tooling to a unified **Autonomous Security Mesh**:
 
-**👤 Created by ADUROM AI**
+**👤 Created by ADUROM AI™**
 
 **Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™)**
 
@@ -1520,7 +1520,6 @@ style C fill:#FFD600,color:#000
 >  These relationships represent ADUROM AI's architectural interpretation and are **not official crosswalks, certifications, accreditations, authorizations, endorsements, or compliance determinations** issued by the organizations that publish or administer the referenced frameworks, standards, regulations, or programs.
 >
 >  Organizations remain responsible for determining and demonstrating their own compliance with applicable laws, regulations, contractual requirements, security standards, authorization requirements, and organizational policies.
-
  
 ---
 
@@ -2052,8 +2051,8 @@ docs/adr/
 ---
 
 ## 🔬 Research Contributions
-
- Current ADUROM AI research areas include:
+ 
+ Current ADUROM AI™ research areas include:
 
 - Adaptive Security Control Models
 - Sovereign Cloud Security Architecture
@@ -2147,55 +2146,263 @@ Where applicable, publications should identify whether they represent:
 
 ---
 
-## ⚖️ Intellectual Property & Framework Disclaimer
+## Intellectual Property & Framework Disclaimer
 
-### Proprietary Intellectual Property Notice
+### ADUROM AI™ Proprietary Intellectual Property
 
-**👤 Created by ADUROM AI**
+**© June 1, 2026 ADUROM AI CORP. All Rights Reserved.**
 
-**Sole Owner of (SARTA™ — Sovereign Adaptive Resilience & Trust Architecture™, SARTA™ v3™, AI-SABOK™, AITORA™, and associated names, marks, methodologies, architectures, frameworks, models, taxonomies, documentation, research, designs, technical materials, and original works are proprietary intellectual property of ADUROM AI - CORP, except where expressly identified as third-party material).**
+* ADUROM AI™ is the proprietary market-facing brand of ADUROM AI - CORP, subject to applicable trademark rights, registrations, third-party rights, and written agreements.
 
-**Copyright© June 1, 2026 by ADUROM AI (All Rights Reserved)**
+* ADUROM AI™ encompasses the intellectual property, proprietary methodologies, frameworks, architectures, research, engineering assets, products, services, documentation, technical materials, and associated brand assets developed, owned, or lawfully controlled by ADUROM AI - CORP.
+
+### The ADUROM AI™ intellectual-property portfolio includes, but is not limited to:
+
+* ADUROM AI™ — corporate and market-facing brand
+
+* SARTA™ — Sovereign Adaptive Resilience & Trust Architecture™
+
+* SARTA™ v3™
+
+* AI-SABOK™
+
+* AITORA™
+
+* SARTA™ methodologies
+
+* SARTA™ architectures
+
+* SARTA™ security and resilience models
+
+* SARTA™ technical implementation patterns
+
+* SARTA™ technical artifacts
+
+* SARTA™ evidence and assurance methodologies
+
+* ADUROM AI™ research and engineering materials
+
+* ADUROM AI™ products and services
+
+**Associated terminology, taxonomies, models, diagrams, documentation, designs, software, source code, and original technical works**
+
+***Unless expressly identified otherwise, these materials are proprietary to ADUROM AI - CORP and are protected by applicable intellectual-property rights.***
+
+---
+
+### ADUROM AI™ Ownership and Brand Relationship
+
+**The relationship among the principal ADUROM AI™ assets is represented conceptually as follows:**
+
+```mermaid
+
+flowchart TB
+
+    CORP["🏢 ADUROM AI - CORP<br/><br/>Legal Entity<br/>Proprietary Intellectual Property Owner"]
+
+    BRAND["🔷 ADUROM AI™<br/><br/>Market-Facing Brand<br/>Corporate Technology & Innovation Portfolio"]
+
+    SARTA["🛡️ SARTA™<br/><br/>Sovereign Adaptive Resilience<br/>& Trust Architecture™"]
+
+    V3["⚡ SARTA™ v3™<br/><br/>Advanced Framework Architecture<br/>Autonomous / Adaptive Security Concepts"]
+
+    SABOK["📚 AI-SABOK™<br/><br/>AI Security Body of Knowledge<br/>Knowledge Architecture & Taxonomy"]
+
+    AITORA["🎯 AITORA™<br/><br/>AI Technology / Risk /<br/>Operational Assurance Framework"]
+
+    METH["🧭 SARTA™ Methodologies<br/><br/>Governance • Risk • Security<br/>Resilience • Assurance • Evidence"]
+
+    ARCH["🏗️ SARTA™ Architectures<br/><br/>AI Security • Zero Trust<br/>Cloud • Identity • Data • Resilience"]
+
+    TECH["💻 SARTA™ Technical Artifacts<br/><br/>Code • IaC • Kubernetes<br/>Policies • Detection • CI/CD<br/>Validation & Engineering Assets"]
+
+    EVID["📊 SARTA™ Evidence & Assurance System<br/><br/>Evidence Register • E1–E5<br/>Testing • Validation • Measurement<br/>Demonstration • Assurance"]
+
+    PRODUCTS["🚀 ADUROM AI™ Products & Services<br/><br/>Security • AI • Governance<br/>Cloud • Resilience • Assurance<br/>Federal & Commercial Offerings"]
+
+    CORP --> BRAND
+    BRAND --> SARTA
+    BRAND --> PRODUCTS
+
+    SARTA --> V3
+    SARTA --> SABOK
+    SARTA --> AITORA
+    SARTA --> METH
+    SARTA --> ARCH
+    SARTA --> TECH
+    SARTA --> EVID
+
+    V3 -. "Framework Evolution" .-> METH
+    V3 -. "Architecture" .-> ARCH
+    SABOK -. "Knowledge & Controls" .-> METH
+    AITORA -. "Risk & Assurance" .-> EVID
+
+    METH -. "Informs" .-> ARCH
+    ARCH -. "Implemented Through" .-> TECH
+    TECH -. "Generates" .-> EVID
+    EVID -. "Supports" .-> PRODUCTS
+
+    style CORP fill:#0B172A,color:#FFFFFF,stroke:#00BCD4,stroke-width:4px
+    style BRAND fill:#1565C0,color:#FFFFFF,stroke:#42A5F5,stroke-width:3px
+    style SARTA fill:#6A1B9A,color:#FFFFFF,stroke:#CE93D8,stroke-width:4px
+
+    style V3 fill:#8E24AA,color:#FFFFFF,stroke:#E1BEE7,stroke-width:2px
+    style SABOK fill:#4527A0,color:#FFFFFF,stroke:#B39DDB,stroke-width:2px
+    style AITORA fill:#5E35B1,color:#FFFFFF,stroke:#D1C4E9,stroke-width:2px
+
+    style METH fill:#EF6C00,color:#FFFFFF,stroke:#FFCC80,stroke-width:2px
+    style ARCH fill:#00838F,color:#FFFFFF,stroke:#80DEEA,stroke-width:2px
+    style TECH fill:#37474F,color:#FFFFFF,stroke:#B0BEC5,stroke-width:2px
+    style EVID fill:#2E7D32,color:#FFFFFF,stroke:#A5D6A7,stroke-width:2px
+
+    style PRODUCTS fill:#C62828,color:#FFFFFF,stroke:#EF9A9A,stroke-width:3px
+
+```
+
+### The above structure identifies the intended relationship between the ADUROM AI™ brand and its associated proprietary frameworks, methodologies, technical assets, products, and services.
+
+* Nothing in this repository transfers ownership of these assets to any individual, organization, customer, partner, contractor, or third party.
 
 ---
 
 ### SARTA™ Framework Status
 
-**SARTA™ is an ADUROM AI proprietary research and engineering framework.**
+* SARTA™ is an ADUROM AI™ proprietary research and engineering framework.
 
-***SARTA™ may be mapped to or informed by established government, regulatory, and industry frameworks and standards. Such references do not imply ownership, endorsement, certification, accreditation, authorization, or official affiliation with the organizations responsible for those frameworks or standards.***
+* SARTA™ may be mapped to or informed by established government, regulatory, and industry frameworks and standards. Such references do not imply ownership, endorsement, certification, accreditation, authorization, or official affiliation with the organizations responsible for those frameworks or standards.
 
-**No Government or Regulatory Certification**
+* SARTA™ is not a U.S. Government framework, certification, accreditation, authorization, regulation, or compliance standard.
 
-***The presence of security controls, configurations, mappings, demonstrations, or research artifacts in this repository does not by itself establish: Federal authorization; FedRAMP authorization; regulatory certification; DORA compliance; NIS2 compliance; production authorization; customer validation; or guaranteed security performance.***
+* SARTA™ does not replace or supersede applicable laws, regulations, agency requirements, contractual requirements, NIST publications, FedRAMP requirements, or other authoritative standards and guidance.
 
-**Applicable claims require their own independent evidence, assessment, authorization, contractual basis, or other applicable validation.**
+---
 
-**The contents of this repository are provided for research, engineering, evaluation, and demonstration purposes. Publication of repository materials does not constitute a grant of ownership, license, assignment, or other authorization to use ADUROM AI proprietary intellectual property for commercial purposes.**
+### Proprietary Use Restrictions
 
-***Unless expressly stated otherwise in a specific file or accompanying license notice, no permission is granted to: reproduce proprietary framework materials for commercial use; modify or create derivative commercial works from proprietary SARTA™ materials; redistribute proprietary ADUROM AI framework materials; represent SARTA™ or associated ADUROM AI methodologies as the work, framework, product, certification, or methodology of another organization; or use ADUROM AI proprietary names, marks, methodologies, or branding in a manner that suggests sponsorship, endorsement, partnership, certification, or ownership by another organization.***
+* The contents of this repository may include proprietary ADUROM AI™ intellectual property.
+
+**Unless expressly authorized by ADUROM AI - CORP in writing or expressly permitted by an applicable third-party license, no rights are granted to: reproduce ADUROM AI™ proprietary materials for commercial purposes;** 
+
+* copy, modify, adapt, or create derivative commercial works from proprietary ADUROM AI™ or SARTA™ materials;
+* redistribute proprietary ADUROM AI™ framework materials;
+* commercially exploit proprietary ADUROM AI™ methodologies, architectures, models, documentation, or technical materials;
+* remove or alter proprietary notices; represent ADUROM AI™, SARTA™, AI-SABOK™, AITORA™, or associated methodologies as the property or work of another organization;
+* use ADUROM AI™ or associated marks in a manner suggesting sponsorship, endorsement, certification, authorization, partnership, or ownership where none exists;
+* or imply that publication of repository materials constitutes a license or transfer of intellectual-property rights.
+
+**Public availability of this repository does not, by itself, constitute a commercial license or assignment of ADUROM AI™ intellectual property.**
+
+---
+
+### Copyright
+
+* Original documentation, source code, architecture descriptions, diagrams, technical materials, research materials, and other copyrightable works contained in this repository are protected by applicable copyright law, subject to applicable third-party rights and licenses.
+
+**Copyright © June 1, 2026 by ADUROM AI - CORP. All Rights Reserved.**
+
+* Where a specific repository file contains a separate copyright, license, or attribution notice, that notice applies to the applicable material.
+
+---
+
+### Trademarks and Brand Identity
+
+***The following names are used as ADUROM AI™ proprietary or claimed marks, subject to applicable trademark rights and registration status:***
+
+* ADUROM AI™
+
+* SARTA™
+
+* SARTA™ v3™
+
+* AI-SABOK™
+
+* AITORA™
+
+**The ™ designation indicates a claimed trademark and does not represent a statement that federal trademark registration has been granted.**
+
+**The ® symbol will be used only where applicable to federally registered marks and the associated goods or services covered by the registration.**
+
+**Third parties may not use ADUROM AI™ marks in a manner that creates a likelihood of confusion regarding source, sponsorship, affiliation, authorization, certification, or endorsement.**
+
+---
+
+### Confidential and Non-Public Information
+
+* Nothing in this repository should be interpreted as authorizing the disclosure of confidential or non-public ADUROM AI™ information.
+
+* Proprietary information that is intentionally maintained as confidential may be subject to additional protections and should not be disclosed publicly merely because related research or implementation materials are available in this repository.
+
+* Do not submit passwords, API keys, credentials, private certificates, customer information, controlled information, confidential information, or other non-public sensitive materials to this repository.
+
+---
 
 ### Third-Party Materials
 
-**This repository may reference or incorporate third-party technologies, open-source software, standards, specifications, documentation, trademarks, or other materials.**
+* This repository may reference or incorporate third-party technologies, open-source software, standards, specifications, documentation, trademarks, or other materials.
 
-***Third-party materials remain the property of their respective owners and are subject to their applicable licenses, terms, and intellectual-property rights. Nothing in this notice is intended to restrict rights granted under an applicable third-party license.***
+* Third-party materials remain the property of their respective owners and are subject to their applicable licenses, terms, and intellectual-property rights.
+
+* Nothing in this notice is intended to restrict rights granted under an applicable third-party license.
+
+---
 
 ### LIONSIGHT Relationship
 
-**LIONSIGHT is an independent strategic and federal-contracting partner of ADUROM AI - CORP and is not the parent company, owner, or proprietor of ADUROM AI™, SARTA™, AI-SABOK™, AITORA™, or associated ADUROM AI proprietary intellectual property unless expressly established by a separate written agreement.**
+* LIONSIGHT is an independent strategic and federal-contracting partner of ADUROM AI - CORP.
 
-***LIONSIGHT-owned intellectual property, confidential information, customer information, contractual information, and other proprietary materials remain separate from ADUROM AI proprietary intellectual property and are not granted or transferred by this repository.***
+* LIONSIGHT is not the parent company, owner, proprietor, or controlling entity of ADUROM AI - CORP, ADUROM AI™, SARTA™, AI-SABOK™, AITORA™, or associated ADUROM AI™ intellectual property unless expressly established by a separate written agreement.
+
+**The respective intellectual property and business interests of ADUROM AI - CORP and LIONSIGHT remain separate.**
+
+***LIONSIGHT-owned intellectual property, confidential information, customer information, contractual information, and other proprietary materials are not transferred to, licensed through, or incorporated into ADUROM AI™ intellectual property by virtue of the parties' business relationship.***
+
+* Similarly, ADUROM AI™ proprietary intellectual property remains the property of ADUROM AI - CORP unless expressly transferred or licensed through a separate written agreement.
+
+---
+
+### No Government or Regulatory Certification
+
+**The presence of security controls, configurations, mappings, demonstrations, research artifacts, or technical implementations in this repository does not by itself establish:**
+
+1) Federal authorization
+2) FedRAMP authorization
+3) Regulatory certification
+4) DORA compliance
+5) NIS2 compliance
+6) Production authorization
+7) Customer validation
+8) Guaranteed security performance
+9) Applicable claims require their own independent evidence, assessment, authorization, contractual basis, or other applicable validation.
+
+---
+
+### Repository Purpose
+
+* The repository is intended to support research, engineering, evaluation, controlled experimentation, technical demonstration, and evidence development.
+
+* The existence of an implementation artifact does not, by itself, establish successful deployment, enforcement, testing, operational effectiveness, regulatory compliance, or customer validation.
+
+---
+
+**ADUROM AI™ distinguishes between:**
+
+* Designed → Implemented → Tested → Demonstrated → Operationally Validated
+
+* Evidence maturity is therefore treated as a separate engineering consideration from the mere existence of source code or configuration.
+
+---
 
 ### Rights Reserved
 
-**Except for rights expressly granted by applicable third-party licenses or written agreements, all rights in ADUROM AI - CORP proprietary materials are reserved.**
+**👤 Created by ADUROM AI™**
 
-***For permissions, licensing inquiries, or authorized commercial use of ADUROM AI proprietary intellectual property, contact ADUROM AI - CORP through its designated business contact.***
+**Sole Owner of (SARTA™ / AI-SABOK™ / AITORA™ / SARTA™v3™ / ADUROM AI™ / ADUROM AI CORP)**
+
+* Except for rights expressly granted by an applicable third-party license, written agreement, or other legally applicable authorization, all rights in ADUROM AI - CORP proprietary materials are reserved.
+
+* For permissions, licensing inquiries, authorized commercial use, partnership inquiries, or intellectual-property matters, contact ADUROM AI - CORP through its designated business contact.
+
+**Copyright© June 1, 2026 by ADUROM AI (All Rights Reserved)** 
 
 ---
-
-**Copyright© June 1, 2026 by ADUROM AI (All Rights Reserved)**
-
----
----
+ 
